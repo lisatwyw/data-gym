@@ -3,8 +3,8 @@
 
 ## Demo notebooks ###
 
-[]()
-[]()
+[Getting started with ONC datasets](https://github.com/lisatwyw/data-gym/blob/master/data_playground.ipynb)
+[Time-series classification using the WISDM dataset](https://github.com/lisatwyw/data-gym/blob/master/WISDM.ipynb)
 
 ## Links ##
 
