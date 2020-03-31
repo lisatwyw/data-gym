@@ -3,11 +3,14 @@
 
 ## Demo notebooks ###
 
+[Reading in data from Google spreadsheet](https://github.com/lisatwyw/data-gym/blob/master/gs.ipynb)
+
+[Data visualization](https://github.com/lisatwyw/data-gym/blob/master/dimRedux.ipynb)
+
 [Getting started with ONC datasets](https://github.com/lisatwyw/data-gym/blob/master/data_playground.ipynb)
 
 [Time-series classification using the WISDM dataset](https://github.com/lisatwyw/data-gym/blob/master/WISDM.ipynb)
 
-[Data visualization](https://github.com/lisatwyw/data-gym/blob/master/dimRedux.ipynb)
 
 
 
