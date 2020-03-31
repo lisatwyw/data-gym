@@ -3,7 +3,7 @@
 
 ## Demo notebooks ###
 
-[Reading in data from Google spreadsheet](https://github.com/lisatwyw/data-gym/blob/master/gs.ipynb)
+[Reading in data from Google spreadsheet](https://github.com/lisatwyw/data-gym/blob/master/gsheet_demo.ipynb)
 
 [Data visualization](https://github.com/lisatwyw/data-gym/blob/master/dimRedux.ipynb)
 
