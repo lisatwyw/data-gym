@@ -3,18 +3,31 @@
 
 ## Demo notebooks ###
 
-[Reading in data from Google spreadsheet](https://github.com/lisatwyw/data-gym/blob/master/gsheet_demo.ipynb)
+### Python ###
+
+#### General tasks ####
 
 [Data visualization](https://github.com/lisatwyw/data-gym/blob/master/dimRedux.ipynb)
 
+[Reading in data from Google spreadsheet](https://github.com/lisatwyw/data-gym/blob/master/gsheet_demo.ipynb)
+
 [Getting started with ONC datasets](https://github.com/lisatwyw/data-gym/blob/master/data_playground.ipynb)
+
+#### Training models ####
 
 [Time-series classification using the WISDM dataset](https://github.com/lisatwyw/data-gym/blob/master/WISDM.ipynb)
 
 
+### R ###
+[Getting started with R](https://github.com/lisatwyw/data-gym/blob/master/R_get_started.ipynb)
 
 
-## Links ##
+
+## Helpful links ##
+
+[Start R notebook](https://colab.research.google.com/notebook#create=true&language=r)
+
+## Resources ##
 
 ### Meta-data ###
 
