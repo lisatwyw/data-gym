@@ -11,13 +11,15 @@
 
 [Creating subplots](https://github.com/lisatwyw/data-gym/blob/master/subplots.ipynb)
 
-[Discretize variables using repmat](https://github.com/lisatwyw/data-gym/blob/master/Discretize.ipynb)
+[Discretize variables using repmat](https://github.com/lisatwyw/data-gym/blob/master/discretize.ipynb)
 
 [Data visualization via dimensionality-reduction](https://github.com/lisatwyw/data-gym/blob/master/dimRedux.ipynb)
 
 [Explore some ONC datasets](https://github.com/lisatwyw/data-gym/blob/master/data_playground.ipynb)
 
 [Explore the YaleED dataset](https://github.com/lisatwyw/data-gym/blob/master/YaleEDdemo.ipynb)
+
+[Explore codes; calculate some indices](https://github.com/lisatwyw/data-gym/blob/master/clinical_codes.ipynb)
 
 #### Training models ####
 
