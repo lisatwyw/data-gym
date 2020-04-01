@@ -7,11 +7,13 @@
 
 #### General tasks ####
 
-[Data visualization via dimensionality-reduction](https://github.com/lisatwyw/data-gym/blob/master/dimRedux.ipynb)
-
 [Reading in data from Google spreadsheet](https://github.com/lisatwyw/data-gym/blob/master/gsheet_demo.ipynb)
 
-[Getting started with ONC datasets](https://github.com/lisatwyw/data-gym/blob/master/data_playground.ipynb)
+[Data visualization via dimensionality-reduction](https://github.com/lisatwyw/data-gym/blob/master/dimRedux.ipynb)
+
+[Explore some ONC datasets](https://github.com/lisatwyw/data-gym/blob/master/data_playground.ipynb)
+
+[Explore the YaleED dataset](https://github.com/lisatwyw/data-gym/blob/master/YaleEDdemo.ipynb)
 
 #### Training models ####
 
