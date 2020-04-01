@@ -9,6 +9,10 @@
 
 [Reading in data from Google spreadsheet](https://github.com/lisatwyw/data-gym/blob/master/gsheet_demo.ipynb)
 
+[Creating subplots](https://github.com/lisatwyw/data-gym/blob/master/subplots.ipynb)
+
+[Discretize variables using repmat](https://github.com/lisatwyw/data-gym/blob/master/Discretize.ipynb)
+
 [Data visualization via dimensionality-reduction](https://github.com/lisatwyw/data-gym/blob/master/dimRedux.ipynb)
 
 [Explore some ONC datasets](https://github.com/lisatwyw/data-gym/blob/master/data_playground.ipynb)
