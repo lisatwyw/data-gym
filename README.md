@@ -19,7 +19,7 @@
 
 [Explore the YaleED dataset](https://github.com/lisatwyw/data-gym/blob/master/YaleEDdemo.ipynb)
 
-[Explore codes; calculate some indices](https://github.com/lisatwyw/data-gym/blob/master/clinical_codes.ipynb)
+[Explore clinical codes; calculate some clinical indices](https://github.com/lisatwyw/data-gym/blob/master/clinical_codes.ipynb)
 
 #### Training models ####
 
