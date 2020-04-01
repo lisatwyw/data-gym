@@ -11,7 +11,7 @@
 
 [Creating subplots](https://github.com/lisatwyw/data-gym/blob/master/subplots.ipynb)
 
-[Discretize variables using repmat](https://github.com/lisatwyw/data-gym/blob/master/discretize.ipynb)
+[Discretize variables using numpy.matlib.repmat](https://github.com/lisatwyw/data-gym/blob/master/discretize.ipynb)
 
 [Data visualization via dimensionality-reduction](https://github.com/lisatwyw/data-gym/blob/master/dimRedux.ipynb)
 
