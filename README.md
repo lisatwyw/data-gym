@@ -7,7 +7,7 @@
 
 #### General tasks ####
 
-[Data visualization](https://github.com/lisatwyw/data-gym/blob/master/dimRedux.ipynb)
+[Data visualization via dimensionality-reduction](https://github.com/lisatwyw/data-gym/blob/master/dimRedux.ipynb)
 
 [Reading in data from Google spreadsheet](https://github.com/lisatwyw/data-gym/blob/master/gsheet_demo.ipynb)
 
