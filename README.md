@@ -21,6 +21,11 @@
 
 [Explore clinical codes; calculate some clinical indices](https://github.com/lisatwyw/data-gym/blob/master/clinical_codes.ipynb)
 
+
+#### Common code snippets ####
+
+[Jupyter-oriented](https://github.com/lisatwyw/data-gym/blob/master/code_snippets.md)
+
 #### Training models ####
 
 [Time-series classification using the WISDM dataset](https://github.com/lisatwyw/data-gym/blob/master/WISDM.ipynb)
