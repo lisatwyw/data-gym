@@ -1,11 +1,16 @@
 # data-gym #
 
+## Datasets ##
 
-## Demo notebooks ###
+[ECG-ViEW](https://github.com/lisatwyw/data-gym/blob/master/ECG-ViEW.ipynb)
+[JAHA2019](https://github.com/lisatwyw/data-gym/blob/master/.py)
+
+
+## Demo notebooks ##
 
 ### Python ###
 
-#### General tasks ####
+#### General ####
 
 [Reading in data from Google spreadsheet](https://github.com/lisatwyw/data-gym/blob/master/gsheet_demo.ipynb)
 
@@ -21,19 +26,17 @@
 
 [Explore clinical codes; calculate some clinical indices](https://github.com/lisatwyw/data-gym/blob/master/clinical_codes.ipynb)
 
-
-#### Common code snippets ####
-
-[Jupyter-oriented](https://github.com/lisatwyw/data-gym/blob/master/code_snippets.md)
-
 #### Training models ####
 
 [Time-series classification using the WISDM dataset](https://github.com/lisatwyw/data-gym/blob/master/WISDM.ipynb)
 
-
 ### R ###
 [Getting started with R](https://github.com/lisatwyw/data-gym/blob/master/R_get_started.ipynb)
 
+
+## Common code snippets ##
+
+[Jupyter-oriented](https://github.com/lisatwyw/data-gym/blob/master/code_snippets.md)
 
 
 ## Helpful links ##
