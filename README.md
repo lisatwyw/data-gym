@@ -2,9 +2,9 @@
 
 ## Datasets ##
 
-[ECG-ViEW](https://github.com/lisatwyw/data-gym/blob/master/ECG-ViEW.ipynb)
-[JAHA2019](https://github.com/lisatwyw/data-gym/blob/master/.py)
-
+- [ECG-ViEW](https://github.com/lisatwyw/data-gym/blob/master/ECG-ViEW.ipynb)
+- [JAHA2019](https://github.com/lisatwyw/data-gym/blob/master/JAHA2019_HRV_n28.py)
+- [Yale ED dataset](https://github.com/lisatwyw/data-gym/blob/master/YaleEDdemo.ipynb)
 
 ## Demo notebooks ##
 
