@@ -2,8 +2,12 @@
 
 ## Datasets ##
 
-- [ECG-ViEW](https://github.com/lisatwyw/data-gym/blob/master/ECG-ViEW.ipynb)
+### ECG ###
+- [ECG-ViEW](https://github.com/lisatwyw/data-gym/blob/master/ECG_ViEW.ipynb)
 - [JAHA2019](https://github.com/lisatwyw/data-gym/blob/master/JAHA2019_HRV_n28.py)
+
+### Misc. ###
+- [Diabetes](https://github.com/lisatwyw/data-gym/blob/master/UCI-PIMA.md)
 - [Yale ED dataset](https://github.com/lisatwyw/data-gym/blob/master/YaleEDdemo.ipynb)
 - [WISDM dataset](https://github.com/lisatwyw/data-gym/blob/master/WISDM.ipynb)
 
