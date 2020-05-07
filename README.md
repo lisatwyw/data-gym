@@ -7,9 +7,10 @@
 - [JAHA2019](https://github.com/lisatwyw/data-gym/blob/master/JAHA2019_HRV_n28.py)
 
 ### Misc. ###
-- [Diabetes](https://github.com/lisatwyw/data-gym/blob/master/UCI-PIMA.md)
+- [Diabetes](https://github.com/lisatwyw/data-gym/blob/master/LL_vs_LSTM_on_PIMA_without_skin.ipynb)
 - [Yale ED dataset](https://github.com/lisatwyw/data-gym/blob/master/YaleEDdemo.ipynb)
 - [WISDM dataset](https://github.com/lisatwyw/data-gym/blob/master/WISDM.ipynb)
+
 
 
 ## Demo notebooks ##
