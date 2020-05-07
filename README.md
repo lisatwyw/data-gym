@@ -35,9 +35,9 @@
 [Explore clinical codes; calculate some clinical indices](https://github.com/lisatwyw/data-gym/blob/master/clinical_codes.ipynb)
 
 #### Training models ####
-[Logistric regresssion, LSTM using PIMA](https://github.com/lisatwyw/data-gym/blob/master/LR_vs_LSTM_vs_MLP_on_PIMA.ipynb)
-[..., and MLP using PIMA](https://github.com/lisatwyw/data-gym/blob/master/LR_vs_LSTM_vs_MLP_on_PIMA.ipynb)
-[Time-series classification using the WISDM dataset](https://github.com/lisatwyw/data-gym/blob/master/WISDM.ipynb)
+- [Logistric regresssion, LSTM using PIMA](https://github.com/lisatwyw/data-gym/blob/master/LR_vs_LSTM_vs_MLP_on_PIMA.ipynb)
+- [..., and MLP using PIMA](https://github.com/lisatwyw/data-gym/blob/master/LR_vs_LSTM_vs_MLP_on_PIMA.ipynb)
+- [Time-series classification using the WISDM dataset](https://github.com/lisatwyw/data-gym/blob/master/WISDM.ipynb)
 
 ### R ###
 [Getting started with R](https://github.com/lisatwyw/data-gym/blob/master/R_get_started.ipynb)
