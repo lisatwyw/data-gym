@@ -5,7 +5,8 @@
 ### ECG ###
 - [JAHA2019](https://github.com/lisatwyw/data-gym/blob/master/JAHA2019_HRV_n28.py)
 - [ECG-ViEW](https://github.com/lisatwyw/data-gym/blob/master/ECG_ViEW.ipynb)
-- [Physio-net] [pending]
+- [PTB](https://github.com/lisatwyw/data-gym/blob/master/PTB.ipynb) [preliminary]
+
 
 ### Physiological time-series ###
 - [Subject999](https://github.com/lisatwyw/data-gym/blob/master/Prophet_Subject999.ipynb)
@@ -28,6 +29,10 @@
 - [Explore some ONC datasets](https://github.com/lisatwyw/data-gym/blob/master/data_playground.ipynb)
 - [Explore the YaleED dataset](https://github.com/lisatwyw/data-gym/blob/master/YaleEDdemo.ipynb)
 - [Explore clinical codes; calculate some clinical indices](https://github.com/lisatwyw/data-gym/blob/master/clinical_codes.ipynb)
+
+#### Preprocessing #### 
+
+- [biosppy](https://github.com/lisatwyw/data-gym/blob/master/biosppy.ipynb) 
 
 #### Training models ####
 - [Logistric regresssion, LSTM using PIMA](https://github.com/lisatwyw/data-gym/blob/master/LR_vs_LSTM_on_PIMA_without_skin.ipynb)
