@@ -25,23 +25,17 @@
 
 #### General ####
 
-[Reading in data from Google spreadsheet](https://github.com/lisatwyw/data-gym/blob/master/gsheet_demo.ipynb)
-
-[Creating subplots](https://github.com/lisatwyw/data-gym/blob/master/subplots.ipynb)
-
-[Discretize variables using numpy.matlib.repmat](https://github.com/lisatwyw/data-gym/blob/master/discretize.ipynb)
-
-[Data visualization via dimensionality-reduction](https://github.com/lisatwyw/data-gym/blob/master/dimRedux.ipynb)
-
-[Explore some ONC datasets](https://github.com/lisatwyw/data-gym/blob/master/data_playground.ipynb)
-
-[Explore the YaleED dataset](https://github.com/lisatwyw/data-gym/blob/master/YaleEDdemo.ipynb)
-
-[Explore clinical codes; calculate some clinical indices](https://github.com/lisatwyw/data-gym/blob/master/clinical_codes.ipynb)
+- [Reading in data from Google spreadsheet](https://github.com/lisatwyw/data-gym/blob/master/gsheet_demo.ipynb)
+- [Creating subplots](https://github.com/lisatwyw/data-gym/blob/master/subplots.ipynb)
+- [Discretize variables using numpy.matlib.repmat](https://github.com/lisatwyw/data-gym/blob/master/discretize.ipynb)
+- [Data visualization via dimensionality-reduction](https://github.com/lisatwyw/data-gym/blob/master/dimRedux.ipynb)
+- [Explore some ONC datasets](https://github.com/lisatwyw/data-gym/blob/master/data_playground.ipynb)
+- [Explore the YaleED dataset](https://github.com/lisatwyw/data-gym/blob/master/YaleEDdemo.ipynb)
+- [Explore clinical codes; calculate some clinical indices](https://github.com/lisatwyw/data-gym/blob/master/clinical_codes.ipynb)
 
 #### Training models ####
-- [Logistric regresssion, LSTM using PIMA](https://github.com/lisatwyw/data-gym/blob/master/LR_vs_LSTM_vs_MLP_on_PIMA.ipynb)
-- [..., and MLP using PIMA](https://github.com/lisatwyw/data-gym/blob/master/LR_vs_LSTM_vs_MLP_on_PIMA.ipynb)
+- [Logistric regresssion, LSTM using PIMA](https://github.com/lisatwyw/data-gym/blob/master/LR_vs_LSTM_on_PIMA_without_skin.ipynb)
+- [LR and MLP using PIMA](https://github.com/lisatwyw/data-gym/blob/master/LR_vs_LSTM_vs_MLP_on_PIMA.ipynb)
 - [Time-series classification using the WISDM dataset](https://github.com/lisatwyw/data-gym/blob/master/WISDM.ipynb)
 
 ### R ###
