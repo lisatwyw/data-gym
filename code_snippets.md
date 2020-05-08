@@ -18,7 +18,7 @@ display(Javascript('''google.colab.output.setIframeHeight(0, true, {maxHeight: 1
 
 ```
 from google.colab import drive
-drive.mount('/content/drive')
+drive.mount('/content/drive', force_remount=False )
 
 from pydrive.auth import GoogleAuth
 from pydrive.drive import GoogleDrive
