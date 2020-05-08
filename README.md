@@ -10,6 +10,7 @@
 
 ### Physiological time-series ###
 - [Subject999](https://github.com/lisatwyw/data-gym/blob/master/Prophet_Subject999.ipynb)
+- [Fitbit data from 18](https://github.com/lisatwyw/data-gym/blob/master/Fitbit.ipynb)
 - [WISDM dataset](https://github.com/lisatwyw/data-gym/blob/master/WISDM.ipynb)
 
 ### Misc. ###
