@@ -30,6 +30,7 @@
 - [Explore some ONC datasets](https://github.com/lisatwyw/data-gym/blob/master/data_playground.ipynb)
 - [Explore the YaleED dataset](https://github.com/lisatwyw/data-gym/blob/master/YaleEDdemo.ipynb)
 - [Explore clinical codes; calculate some clinical indices](https://github.com/lisatwyw/data-gym/blob/master/clinical_codes.ipynb)
+- [Example of plotting in 3D](https://github.com/lisatwyw/data-gym/blob/master/WISDM_LSTM.ipynb)
 
 #### Preprocessing #### 
 
@@ -40,7 +41,7 @@
 - [LR and MLP using PIMA](https://github.com/lisatwyw/data-gym/blob/master/LR_vs_LSTM_vs_MLP_on_PIMA.ipynb)
 - Time-series classification
   - [MLP on WISDM dataset](https://github.com/lisatwyw/data-gym/blob/master/WISDM.ipynb)
-  - [LSTM on WISDM dataset](https://github.com/lisatwyw/data-gym/blob/master/WISDM_LSTM.ipynb)
+  - [LSTM, GRU on WISDM dataset](https://github.com/lisatwyw/data-gym/blob/master/WISDM_LSTM.ipynb)
 
 ## Common code snippets ##
 
