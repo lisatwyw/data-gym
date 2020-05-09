@@ -38,8 +38,9 @@
 #### Training models ####
 - [Logistric regresssion, LSTM using PIMA](https://github.com/lisatwyw/data-gym/blob/master/LR_vs_LSTM_on_PIMA_without_skin.ipynb)
 - [LR and MLP using PIMA](https://github.com/lisatwyw/data-gym/blob/master/LR_vs_LSTM_vs_MLP_on_PIMA.ipynb)
-- [Time-series classification using MLP on WISDM dataset](https://github.com/lisatwyw/data-gym/blob/master/WISDM.ipynb)
-- [Time-series classification using LSTM on WISDM dataset](https://github.com/lisatwyw/data-gym/blob/master/WISDM_LSTM.ipynb)
+- Time-series classification
+  - [MLP on WISDM dataset](https://github.com/lisatwyw/data-gym/blob/master/WISDM.ipynb)
+  - [LSTM on WISDM dataset](https://github.com/lisatwyw/data-gym/blob/master/WISDM_LSTM.ipynb)
 
 ## Common code snippets ##
 
