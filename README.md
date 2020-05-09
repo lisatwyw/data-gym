@@ -23,7 +23,7 @@
 
 #### General ####
 
-- [Reading in data from Google spreadsheet](https://github.com/lisatwyw/data-gym/blob/master/gsheet_demo.ipynb)
+- [Reading in data from Google spreadsheet](https://github.com/lisatwyw/data-gym/blob/master/gsheet_demo.ipynb), [Example 2: Subject999](https://github.com/lisatwyw/data-gym/blob/master/Prophet_Subject999.ipynb)
 - [Creating subplots](https://github.com/lisatwyw/data-gym/blob/master/subplots.ipynb)
 - [Discretize variables using numpy.matlib.repmat](https://github.com/lisatwyw/data-gym/blob/master/discretize.ipynb)
 - [Data visualization via dimensionality-reduction](https://github.com/lisatwyw/data-gym/blob/master/dimRedux.ipynb)
