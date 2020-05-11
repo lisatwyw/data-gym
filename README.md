@@ -41,7 +41,7 @@
 - [LR and MLP using PIMA](https://github.com/lisatwyw/data-gym/blob/master/LR_vs_LSTM_vs_MLP_on_PIMA.ipynb)
 - Time-series classification
   - [MLP on WISDM dataset](https://github.com/lisatwyw/data-gym/blob/master/WISDM.ipynb)
-  - [LSTM, GRU on WISDM dataset](https://github.com/lisatwyw/data-gym/blob/master/WISDM_LSTM.ipynb)
+  - [LSTM, GRU on WISDM dataset](https://github.com/lisatwyw/data-gym/blob/master/WISDM_lstm.ipynb)
 
 ## Common code snippets ##
 
