@@ -1,3 +1,5 @@
+## ECG sample ##
+
 ```
 csvs=pd.read_csv('datasets/MUSE/PVC/PVCVTECGData/1015792.csv' )                 
  
@@ -19,8 +21,15 @@ V6:     -7578.36,       22172.90
 
 ```
 
+## ECG attribures  ##
+```
+np.unique( dsets['Chinese']['Diagnostics']['Rhythm'])                                                                        
+array(['AF', 'AFIB', 'AT', 'AVNRT', 'AVRT', 'SA', 'SAAWR', 'SB', 'SR',
+       'ST', 'SVT'], dtype=object)
+```
 
-# Patient characteristics #
+
+## Patient characteristics ##
 
 ```
 
