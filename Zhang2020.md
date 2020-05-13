@@ -24,15 +24,13 @@ V6:     -7578.36,       22172.90
 ## ECG attribures  ##
 ```
 np.unique( dsets['Chinese']['Diagnostics']['Rhythm'])                                                                        
-array(['AF', 'AFIB', 'AT', 'AVNRT', 'AVRT', 'SA', 'SAAWR', 'SB', 'SR',
-       'ST', 'SVT'], dtype=object)
+['AF', 'AFIB', 'AT', 'AVNRT', 'AVRT', 'SA', 'SAAWR', 'SB', 'SR', 'ST', 'SVT']
 ```
 
 
 ## Patient characteristics ##
 
 ```
-
 dsets=dict() 
 dsets['Chinese']=dict() 
 dsets['Chinese']['AttributesDictionary']= pd.read_excel('datasets/MUSE/entire/AttributesDictionary.xlsx')
@@ -42,7 +40,7 @@ dsets['Chinese2']=dict()
 dsets['Chinese2']['PVCDiagnostics']= pd.read_excel('datasets/MUSE/PVC/PVC_diagnostics.xlsx')
 
 
-dsets['Chinese']['Diagnostics'].head()                                                                                                                 
+dsets['Chinese']['Diagnostics'].head()        
 
                      FileName Rhythm       Beat  PatientAge DateofBirth  Gender  VentricularRate  AtrialRate  QRSDuration  QTInterval  QTCorrected  RAxis  TAxis  QRSCount  QOnset  QOffset  TOffset
 0  MUSE_20180113_171327_27000   AFIB   RBBB TWC          85  01-01-1932    MALE              117         234          114         356          496     81    -27        19     208      265      386
