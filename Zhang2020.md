@@ -18,3 +18,28 @@ V5:     -7479.15,       22239.63
 V6:     -7578.36,       22172.90
 
 ```
+
+
+# Patient characteristics #
+
+```
+
+dsets=dict() 
+dsets['Chinese']=dict() 
+dsets['Chinese']['AttributesDictionary']= pd.read_excel('datasets/MUSE/entire/AttributesDictionary.xlsx')
+dsets['Chinese']['Diagnostics']= pd.read_excel('datasets/MUSE/entire/Diagnostics.xlsx')
+
+dsets['Chinese2']=dict() 
+dsets['Chinese2']['PVCDiagnostics']= pd.read_excel('datasets/MUSE/PVC/PVC_diagnostics.xlsx')
+
+
+dsets['Chinese']['Diagnostics'].head()                                                                                                                 
+
+                     FileName Rhythm       Beat  PatientAge DateofBirth  Gender  VentricularRate  AtrialRate  QRSDuration  QTInterval  QTCorrected  RAxis  TAxis  QRSCount  QOnset  QOffset  TOffset
+0  MUSE_20180113_171327_27000   AFIB   RBBB TWC          85  01-01-1932    MALE              117         234          114         356          496     81    -27        19     208      265      386
+1  MUSE_20180112_073319_29000     SB        TWC          59  01-01-1958  FEMALE               52          52           92         432          401     76     42         8     215      261      431
+2  MUSE_20180111_165520_97000     SA       NONE          20  01-01-1996  FEMALE               67          67           82         382          403     88     20        11     224      265      415
+3  MUSE_20180113_121940_44000     SB       NONE          66  01-01-1951    MALE               53          53           96         456          427     34      3         9     219      267      447
+4  MUSE_20180112_122850_57000     AF  STDD STTC          73  01-01-1943  FEMALE              162         162          114         252          413     68    -40        26     228      285      354
+
+```
