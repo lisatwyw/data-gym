@@ -4,22 +4,22 @@
 ## Datasets ##
 
 ### ECG ###
-- [JAHA2019](demo/demo/JAHA2019_HRV_n28.py)
-- [ECG-ViEW](demo/demo/ECG_ViEW.ipynb)
-- [PTB](demo/demo/PTB.ipynb)
+- [JAHA2019](demo/JAHA2019_HRV_n28.py)
+- [ECG-ViEW](demo/ECG_ViEW.ipynb)
+- [PTB](demo/PTB.ipynb)
 
 
 ### Physiological time-series ###
-- [Subject999](demo/demo/Prophet_Subject999.ipynb)
-- [Fitbit data from 18](demo/demo/Fitbit.ipynb)
-- [WISDM dataset](demo/demo/WISDM.ipynb)
+- [Subject999](demo/Prophet_Subject999.ipynb)
+- [Fitbit data from 18](demo/Fitbit.ipynb)
+- [WISDM dataset](demo/WISDM.ipynb)
 
 
 ### Misc. ###
 
 - SWELL, WESAD
-- [Diabetes](demo/demo/LR_vs_LSTM_on_PIMA_without_skin.ipynb)
-- [Yale Emergency Dept dataset](demo/demo/YaleEDdemo.ipynb)
+- [Diabetes](demo/LR_vs_LSTM_on_PIMA_without_skin.ipynb)
+- [Yale Emergency Dept dataset](demo/YaleEDdemo.ipynb)
 
 ## Demo notebooks ##
 
@@ -27,8 +27,8 @@
 
 #### General ####
 
-- [Reading in data from Google spreadsheet](demo/demo/gsheet_demo.ipynb), [Example 2: Subject999](demo/demo/Prophet_Subject999.ipynb)
-- [Creating subplots](demo/demo/subplots.ipynb)
+- [Reading in data from Google spreadsheet](demo/gsheet_demo.ipynb), [Example 2: Subject999](demo/Prophet_Subject999.ipynb)
+- [Creating subplots](demo/subplots.ipynb)
 - [Discretize variables using numpy.matlib.repmat](demo/discretize.ipynb)
 - [Data visualization via dimensionality-reduction](demo/dimRedux.ipynb)
 - [Explore some ONC datasets](demo/data_playground.ipynb)
