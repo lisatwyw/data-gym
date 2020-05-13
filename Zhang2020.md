@@ -39,7 +39,7 @@ V6: 	-10838.18, 	27929.16
 
 ```
 
-## ECG attribures  ##
+## ECG attributes  ##
 ```
 np.unique( dsets['Chinese']['Diagnostics']['Rhythm'])                                                                        
 ['AF', 'AFIB', 'AT', 'AVNRT', 'AVRT', 'SA', 'SAAWR', 'SB', 'SR', 'ST', 'SVT']
