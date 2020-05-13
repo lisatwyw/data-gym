@@ -1,24 +1,25 @@
+
 # data-gym #
 
 ## Datasets ##
 
 ### ECG ###
-- [JAHA2019](https://github.com/lisatwyw/data-gym/blob/master/JAHA2019_HRV_n28.py)
-- [ECG-ViEW](https://github.com/lisatwyw/data-gym/blob/master/ECG_ViEW.ipynb)
-- [PTB](https://github.com/lisatwyw/data-gym/blob/master/PTB.ipynb)
+- [JAHA2019](demo/demo/JAHA2019_HRV_n28.py)
+- [ECG-ViEW](demo/demo/ECG_ViEW.ipynb)
+- [PTB](demo/demo/PTB.ipynb)
 
 
 ### Physiological time-series ###
-- [Subject999](https://github.com/lisatwyw/data-gym/blob/master/Prophet_Subject999.ipynb)
-- [Fitbit data from 18](https://github.com/lisatwyw/data-gym/blob/master/Fitbit.ipynb)
-- [WISDM dataset](https://github.com/lisatwyw/data-gym/blob/master/WISDM.ipynb)
+- [Subject999](demo/demo/Prophet_Subject999.ipynb)
+- [Fitbit data from 18](demo/demo/Fitbit.ipynb)
+- [WISDM dataset](demo/demo/WISDM.ipynb)
 
 
 ### Misc. ###
 
 - SWELL, WESAD
-- [Diabetes](https://github.com/lisatwyw/data-gym/blob/master/LR_vs_LSTM_on_PIMA_without_skin.ipynb)
-- [Yale Emergency Dept dataset](https://github.com/lisatwyw/data-gym/blob/master/YaleEDdemo.ipynb)
+- [Diabetes](demo/demo/LR_vs_LSTM_on_PIMA_without_skin.ipynb)
+- [Yale Emergency Dept dataset](demo/demo/YaleEDdemo.ipynb)
 
 ## Demo notebooks ##
 
@@ -26,36 +27,36 @@
 
 #### General ####
 
-- [Reading in data from Google spreadsheet](https://github.com/lisatwyw/data-gym/blob/master/gsheet_demo.ipynb), [Example 2: Subject999](https://github.com/lisatwyw/data-gym/blob/master/Prophet_Subject999.ipynb)
-- [Creating subplots](https://github.com/lisatwyw/data-gym/blob/master/subplots.ipynb)
-- [Discretize variables using numpy.matlib.repmat](https://github.com/lisatwyw/data-gym/blob/master/discretize.ipynb)
-- [Data visualization via dimensionality-reduction](https://github.com/lisatwyw/data-gym/blob/master/dimRedux.ipynb)
-- [Explore some ONC datasets](https://github.com/lisatwyw/data-gym/blob/master/data_playground.ipynb)
-- [Explore the YaleED dataset](https://github.com/lisatwyw/data-gym/blob/master/YaleEDdemo.ipynb)
-- [Explore clinical codes; calculate some clinical indices](https://github.com/lisatwyw/data-gym/blob/master/clinical_codes.ipynb)
-- [Example of plotting in 3D](https://github.com/lisatwyw/data-gym/blob/master/WISDM_LSTM.ipynb)
+- [Reading in data from Google spreadsheet](demo/demo/gsheet_demo.ipynb), [Example 2: Subject999](demo/demo/Prophet_Subject999.ipynb)
+- [Creating subplots](demo/demo/subplots.ipynb)
+- [Discretize variables using numpy.matlib.repmat](demo/discretize.ipynb)
+- [Data visualization via dimensionality-reduction](demo/dimRedux.ipynb)
+- [Explore some ONC datasets](demo/data_playground.ipynb)
+- [Explore the YaleED dataset](demo/YaleEDdemo.ipynb)
+- [Explore clinical codes; calculate some clinical indices](demo/clinical_codes.ipynb)
+- [Example of plotting in 3D](demo/WISDM_LSTM.ipynb)
 
 #### Preprocessing #### 
 
-- [biosppy](https://github.com/lisatwyw/data-gym/blob/master/biosppy.ipynb) 
+- [biosppy](demo/biosppy.ipynb) 
 
 #### Training models ####
-- [Logistric regresssion, LSTM using PIMA](https://github.com/lisatwyw/data-gym/blob/master/LR_vs_LSTM_on_PIMA_without_skin.ipynb)
-- [LR and MLP using PIMA](https://github.com/lisatwyw/data-gym/blob/master/LR_vs_LSTM_vs_MLP_on_PIMA.ipynb)
+- [Logistric regresssion, LSTM using PIMA](demo/LR_vs_LSTM_on_PIMA_without_skin.ipynb)
+- [LR and MLP using PIMA](demo/LR_vs_LSTM_vs_MLP_on_PIMA.ipynb)
 - Time-series classification (WISDM dataset)
-  - [MLP](https://github.com/lisatwyw/data-gym/blob/master/WISDM.ipynb)
-  - [LSTM, GRU](https://github.com/lisatwyw/data-gym/blob/master/WISDM_lstm.ipynb)
-  - [1D-CNN](https://github.com/lisatwyw/data-gym/blob/master/WISDM_1dcnn.ipynb)
+  - [MLP](demo/WISDM.ipynb)
+  - [LSTM, GRU](demo/WISDM_lstm.ipynb)
+  - [1D-CNN](demo/WISDM_1dcnn.ipynb)
 
 ## Common code snippets ##
 
-- [Jupyter-oriented](https://github.com/lisatwyw/data-gym/blob/master/code_snippets.md)
+- [Jupyter-oriented](demo/code_snippets.md)
 
 
 ## Helpful links ##
 
 - [Start R notebook](https://colab.research.google.com/notebook#create=true&language=r)
-- [Getting started with R by me](https://github.com/lisatwyw/data-gym/blob/master/R_get_started.ipynb)
+- [Getting started with R by me](demo/R_get_started.ipynb)
 
 ## Resources ##
 
@@ -66,3 +67,5 @@
 - [DataOne search interface ](https://search.dataone.org/data)
 
 
+
+                     
