@@ -12,9 +12,11 @@
 - [Subject999](https://github.com/lisatwyw/data-gym/blob/master/Prophet_Subject999.ipynb)
 - [Fitbit data from 18](https://github.com/lisatwyw/data-gym/blob/master/Fitbit.ipynb)
 - [WISDM dataset](https://github.com/lisatwyw/data-gym/blob/master/WISDM.ipynb)
-- SWELL, WESAD
+
 
 ### Misc. ###
+
+- SWELL, WESAD
 - [Diabetes](https://github.com/lisatwyw/data-gym/blob/master/LR_vs_LSTM_on_PIMA_without_skin.ipynb)
 - [Yale Emergency Dept dataset](https://github.com/lisatwyw/data-gym/blob/master/YaleEDdemo.ipynb)
 
