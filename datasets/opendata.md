@@ -1,6 +1,5 @@
 [OpenCanada](https://open.canada.ca/data/en/dataset/88e982b2-0799-4e17-b000-9961ea05b0f0)
 
-```
 <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -2962,5 +2961,5 @@
   </tbody>
 </table>
 </div>
-```
+
 
