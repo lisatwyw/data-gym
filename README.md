@@ -44,9 +44,9 @@
 - [Logistric regresssion, LSTM using PIMA](demo/LR_vs_LSTM_on_PIMA_without_skin.ipynb)
 - [LR and MLP using PIMA](demo/LR_vs_LSTM_vs_MLP_on_PIMA.ipynb)
 - Time-series classification (WISDM dataset)
-  - [MLP](demo/WISDM.ipynb)
-  - [LSTM, GRU](demo/WISDM_lstm.ipynb)
-  - [1D-CNN](demo/WISDM_1dcnn.ipynb)
+    - [MLP](demo/WISDM.ipynb)
+    - [LSTM, GRU](demo/WISDM_lstm.ipynb)
+    - [1D-CNN](demo/WISDM_1dcnn.ipynb)
 
 ## Common code snippets ##
 
