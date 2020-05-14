@@ -1,4 +1,6 @@
-[OpenCanada](https://open.canada.ca/data/en/dataset/88e982b2-0799-4e17-b000-9961ea05b0f0)
+# OpenCanada #
+
+[Geographical locations and other info of BC's ED](https://open.canada.ca/data/en/dataset/88e982b2-0799-4e17-b000-9961ea05b0f0)
 
 <table border="1" class="dataframe">
   <thead>
@@ -2943,9 +2945,8 @@
       <td>49.257699</td>
       <td>-123.096358</td>
       <td>http://www.healthlinkbc.ca/find/resource.asp?F...</td>
-    </tr>
-      
-    <tr style="text-align: right;">
+    </tr>     
+    <tr>
       <th></th>
       <th>SV_TAXONOMY</th>
       <th>TAXONOMY_NAME</th>
