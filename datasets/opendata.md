@@ -1,6 +1,6 @@
 # OpenCanada #
 
-[Geographical locations and other info of BC's ED](https://open.canada.ca/data/en/dataset/88e982b2-0799-4e17-b000-9961ea05b0f0)
+[Geographical locations and other info of BC's Emergency rooms](https://open.canada.ca/data/en/dataset/88e982b2-0799-4e17-b000-9961ea05b0f0)
 
 <table border="1" class="dataframe">
   <thead>
