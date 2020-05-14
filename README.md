@@ -50,7 +50,7 @@
 
 ## Common code snippets ##
 
-- [Jupyter-oriented](demo/code_snippets.md)
+- [Jupyter-oriented](misc/code_snippets.md)
 
 
 ## Helpful links ##
