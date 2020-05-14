@@ -41,7 +41,7 @@
 - [biosppy](demo/biosppy.ipynb) 
 
 #### Training models ####
-- [Logistric regresssion, LSTM using PIMA](demo/LR_vs_LSTM_on_PIMA_without_skin.ipynb)
+- [Logistric regresssion and LSTM using PIMA](demo/LR_vs_LSTM_on_PIMA_without_skin.ipynb)
 - [LR and MLP using PIMA](demo/LR_vs_LSTM_vs_MLP_on_PIMA.ipynb)
 - Time-series classification (WISDM dataset)
     - [MLP](demo/WISDM.ipynb)
