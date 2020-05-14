@@ -2958,6 +2958,36 @@
       <td>-123.096358</td>
       <td>http://www.healthlinkbc.ca/find/resource.asp?F...</td>
     </tr>
+      
+    <tr style="text-align: right;">
+      <th></th>
+      <th>SV_TAXONOMY</th>
+      <th>TAXONOMY_NAME</th>
+      <th>RG_REFERENCE</th>
+      <th>RG_NAME</th>
+      <th>SV_REFERENCE</th>
+      <th>SV_NAME</th>
+      <th>SV_DESCRIPTION</th>
+      <th>SL_REFERENCE</th>
+      <th>LC_REFERENCE</th>
+      <th>PHONE_NUMBER</th>
+      <th>WEBSITE</th>
+      <th>EMAIL_ADDRESS</th>
+      <th>WHEELCHAIR_ACCESSIBLE</th>
+      <th>LANGUAGE</th>
+      <th>HOURS</th>
+      <th>STREET_NUMBER</th>
+      <th>STREET_NAME</th>
+      <th>STREET_TYPE</th>
+      <th>STREET_DIRECTION</th>
+      <th>CITY</th>
+      <th>PROVINCE</th>
+      <th>POSTAL_CODE</th>
+      <th>LATITUDE</th>
+      <th>LONGITUDE</th>
+      <th>811_LINK</th>
+    </tr>
+    
   </tbody>
 </table>
 </div>
