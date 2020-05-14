@@ -1,19 +1,5 @@
 [OpenCanada](https://open.canada.ca/data/en/dataset/88e982b2-0799-4e17-b000-9961ea05b0f0)
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
