@@ -19,7 +19,10 @@
 
 - SWELL, WESAD
 - [Diabetes](demo/LR_vs_LSTM_on_PIMA_without_skin.ipynb)
-- [Yale Emergency Dept dataset](demo/YaleEDdemo.ipynb)
+- [Yale Emergency Dept dataset](YaleEDdemo.ipynb)
+
+### Population statistics ###
+- [COVID19 from OpenCanada](datasets/OpenCanada_COVID19.ipynb)
 
 ## Demo notebooks ##
 
@@ -32,7 +35,7 @@
 - [Discretize variables using numpy.matlib.repmat](demo/discretize.ipynb)
 - [Data visualization via dimensionality-reduction](demo/dimRedux.ipynb)
 - [Explore some ONC datasets](demo/data_playground.ipynb)
-- [Explore the YaleED dataset](demo/YaleEDdemo.ipynb)
+- [Explore the YaleED dataset](YaleEDdemo.ipynb)
 - [Explore clinical codes; calculate some clinical indices](demo/clinical_codes.ipynb)
 - [Example of plotting in 3D](demo/WISDM_LSTM.ipynb)
 
@@ -45,8 +48,8 @@
 - [LR and MLP using PIMA](demo/LR_vs_LSTM_vs_MLP_on_PIMA.ipynb)
 - Time-series classification (WISDM dataset)
     - [MLP](demo/WISDM.ipynb)
-    - [LSTM, GRU](demo/WISDM_lstm.ipynb)
-    - [1D-CNN](demo/WISDM_1dcnn.ipynb)
+    - [LSTM, GRU](WISDM_lstm.ipynb)
+    - [1D-CNN](WISDM_1dcnn.ipynb)
 
 ## Common code snippets ##
 
