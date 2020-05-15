@@ -4,14 +4,15 @@
 ## Datasets ##
 
 ### ECG ###
-- [JAHA2019](demo/JAHA2019_HRV_n28.py)
 - [ECG-ViEW](demo/ECG_ViEW.ipynb)
 - [PTB](demo/PTB.ipynb)
 
 
 ### Physiological time-series ###
+
+- [HRV data (JAHA2019)](demo/JAHA2019_HRV_n28.py)
 - [Subject999](demo/Prophet_Subject999.ipynb)
-- [Fitbit data from 18](demo/Fitbit.ipynb)
+- [Fitbit data from 18 subjects](demo/Fitbit.ipynb)
 - [WISDM dataset](demo/WISDM.ipynb)
 
 
