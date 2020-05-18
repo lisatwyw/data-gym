@@ -1,3 +1,13 @@
+# General #
+```
+import tensorflow as tf
+device_name = tf.test.gpu_device_name()
+if device_name != '/device:GPU:0':
+  raise SystemError('GPU device not found')
+print('Found GPU at: {}'.format(device_name))
+```
+
+# JupyterHub #
 ## Show all data in output ##
 
 ```
@@ -13,6 +23,9 @@ from IPython.display import Javascript
 display(Javascript('''google.colab.output.setIframeHeight(0, true, {maxHeight: 14821})'''))
 
 ```
+
+
+# Specific to  Google Colab ##
 
 ## Mount and create subfolders, etc. ##
 
