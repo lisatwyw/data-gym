@@ -22,7 +22,9 @@
 - SWELL, WESAD
 - [Diabetes](demo/LR_vs_LSTM_on_PIMA_without_skin.ipynb)
 - [Yale Emergency Dept dataset](YaleEDdemo.ipynb)
-- [US medicare](https://data.medicare.gov/data/hospital-compare)
+- [US medicare](https://data.medicare.gov/data/hospital-compare)  # external
+- [EHR temporal variability](https://github.com/hms-dbmi/EHRtemporalVariability)  # external
+
 
 
 ### Population statistics ###
