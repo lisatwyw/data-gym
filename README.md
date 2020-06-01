@@ -24,6 +24,7 @@
 - [Yale Emergency Dept dataset](YaleEDdemo.ipynb)
 - [US medicare](https://data.medicare.gov/data/hospital-compare)
 
+
 ### Population statistics ###
 - [COVID19 from OpenCanada](datasets/OpenCanada_COVID19.ipynb)
 
