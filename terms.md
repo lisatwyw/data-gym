@@ -8,10 +8,14 @@
  - measures = columns
 
 - roles
+ - patient: screener/ navigator | nurse to triage | doctor/VP
 
-- patient: screener/ navigator | nurse/triages | doctor
+- data object = a call / encounter (2 time-stamps)
 
-data object = a call / encounter (2 time-stamps)
+# Processes #
 
+- summary reports: daily counts VP/shift
+
+- call > Zoom 
 
 
