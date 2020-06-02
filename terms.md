@@ -10,7 +10,7 @@
 - roles
  - patient: screener/ navigator | nurse to triage | doctor/VP
 
-- data object = a call / encounter (2 time-stamps)
+- data object = a call / encounters (2 timestamps)
 
 # Processes #
 
@@ -18,4 +18,12 @@
 
 - call > Zoom 
 
+- EMR
 
+
+
+# Timelines #
+
+- templates?
+- glossary 
+- ...
