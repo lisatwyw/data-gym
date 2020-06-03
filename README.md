@@ -69,6 +69,11 @@
 
 ## Resources ##
 
+### Statistics & cross-validation ###
+
+- ["Statistical Approaches to the Model Comparison Task in Learning Analytics," Gardner & LAK2017](http://ceur-ws.org/Vol-1915/paper2.pdf)
+- [slides by B Evans](https://ecs.wgtn.ac.nz/foswiki/pub/Groups/ECRG/StatsGuide/Significance%20Testing%20for%20Classification.pdf)
+
 ### Meta-data ###
 
 - [BioLinCC](https://biolincc.nhlbi.nih.gov/studies/?s=rank&not_initial=Yes&q=acute+care+&d=name&d=acronym&d=available_resources&d=period&page_size=500&so=name&so=acronym&so=available_resources&so=period)
