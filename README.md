@@ -72,7 +72,7 @@
 ### Visual analytics ###
 
 - ["Making Data Visual" by Danyel Fisher, Miriah Meyer](https://makingdatavisual.github.io/)
- - [How to choose?](https://makingdatavisual.github.io/figurelist.html)
+  - [How to choose?](https://makingdatavisual.github.io/figurelist.html)
 - [Visualizing missing data quickly](https://github.com/ResidentMario/missingno)
 - [Visualization: bad examples](https://viz.wtf/)
 - [Violinplot via Seaborn](http://seaborn.pydata.org/examples/wide_form_violinplot.html)
