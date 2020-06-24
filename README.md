@@ -45,7 +45,7 @@
 - [Explore clinical codes; calculate some clinical indices](demo/clinical_codes.ipynb)
 - [Example of plotting in 3D](demo/WISDM_LSTM.ipynb)
 
-#### Preprocessing #### 
+#### Preprocessing ####
 
 - [biosppy](demo/biosppy.ipynb) 
 
@@ -71,7 +71,12 @@
 
 ### Visual analytics ###
 
-- "Making Data Visual" by Danyel Fisher, Miriah Meyer
+- ["Making Data Visual" by Danyel Fisher, Miriah Meyer](https://makingdatavisual.github.io/)
+ - [How to choose?](https://makingdatavisual.github.io/figurelist.html)
+- [Visualizing missing data quickly](https://github.com/ResidentMario/missingno)
+- [Visualization: bad examples](https://viz.wtf/)
+- [Violinplot via Seaborn](http://seaborn.pydata.org/examples/wide_form_violinplot.html)
+
 
 ### Statistics & cross-validation ###
 
