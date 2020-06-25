@@ -13,9 +13,16 @@ print('parsing sheet',f)
 sh = wb[ f ]
 
 for i in range(1,sh.max_row):
-    print(sh['D%d'%i].value, sh['S%d'%i].fill.start_color.index  ) # will hopefully print style at this cell
-    
+
+    ce=sh['D%d'%i]; color_in_hex=ce.fill.start_color.index; print(ce.value, color_in_hex ) # will hopefully print style at this cell
+
+
+print('HEX =',color_in_hex) 
+print('RGB =', tuple(int(color_in_hex[i:i+2], 16) for i in (0, 2, 4))) # Color in RGB
+
 ```
+
+
 
 ## xls only ##
 
