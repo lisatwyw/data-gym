@@ -8,27 +8,30 @@
 - [ECG-ViEW](demo/ECG_ViEW.ipynb)
 - [PTB](demo/PTB.ipynb)
 
-
 ### Physiological time-series ###
 
 - [HRV data (JAHA2019)](demo/JAHA2019_HRV_n28.py)
 - [Subject999](demo/Prophet_Subject999.ipynb)
 - [Fitbit data from 18 subjects](demo/Fitbit.ipynb)
 - [WISDM dataset](demo/WISDM.ipynb)
-
-
-### Misc. ###
-
 - SWELL, WESAD
-- [Diabetes](demo/LR_vs_LSTM_on_PIMA_without_skin.ipynb)
+
+### Hospital data ###
+
 - [Yale Emergency Dept dataset](YaleEDdemo.ipynb)
 - [US medicare](https://data.medicare.gov/data/hospital-compare)  # external
 - [EHR temporal variability](https://github.com/hms-dbmi/EHRtemporalVariability)  # external
 
+### Misc. ###
+
+- [Diabetes](demo/LR_vs_LSTM_on_PIMA_without_skin.ipynb)
 
 
 ### Population statistics ###
 - [COVID19 from OpenCanada](datasets/OpenCanada_COVID19.ipynb)
+
+
+
 
 ## Demo notebooks ##
 
