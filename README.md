@@ -36,7 +36,9 @@
 
 #### General ####
 
-- [Reading in data from Google spreadsheet](demo/gsheet_demo.ipynb), [Example 2: Subject999](demo/Prophet_Subject999.ipynb)
+- [Extracting data](demo/.md)
+- [Reading in data from Google spreadsheet](demo/gsheet_demo.ipynb)
+  - [Example 2: Subject999](demo/Prophet_Subject999.ipynb)
 - [Creating subplots](demo/subplots.ipynb)
 - [Discretize variables using numpy.matlib.repmat](demo/discretize.ipynb)
 - [Data visualization via dimensionality-reduction](demo/dimRedux.ipynb)
