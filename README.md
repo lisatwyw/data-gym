@@ -36,7 +36,7 @@
 
 #### General ####
 
-- [Extracting data](demo/.md)
+- [Extracting data: background color of cells in Excel files](demo/parsing_excel.md)
 - [Reading in data from Google spreadsheet](demo/gsheet_demo.ipynb)
   - [Example 2: Subject999](demo/Prophet_Subject999.ipynb)
 - [Creating subplots](demo/subplots.ipynb)
