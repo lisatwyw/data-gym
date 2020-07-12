@@ -22,10 +22,9 @@
 - [US medicare](https://data.medicare.gov/data/hospital-compare)  # external
 - [EHR temporal variability](https://github.com/hms-dbmi/EHRtemporalVariability)  # external
 
-### Misc. ###
+### Older datasets ###
 
 - [Diabetes](demo/LR_vs_LSTM_on_PIMA_without_skin.ipynb)
-
 
 ### Population statistics ###
 - [COVID19 from OpenCanada](datasets/OpenCanada_COVID19.ipynb)
@@ -33,22 +32,30 @@
 
 
 
-## Demo notebooks ##
 
-### Python ###
 
-#### General ####
+## Demo Python ##
+
+### General ###
+
+#### Data I/O ####
 
 - [Extracting data: background color of cells in Excel files](demo/parsing_excel.md)
 - [Reading in data from Google spreadsheet](demo/gsheet_demo.ipynb)
   - [Example 2: Subject999](demo/Prophet_Subject999.ipynb)
+  
+#### Plotting ####  
 - [Creating subplots](demo/subplots.ipynb)
+- [Correlogram with numbers](demo/correlogram_in_python.ipynb)
+- [Example of plotting in 3D](demo/WISDM_LSTM.ipynb)
+
+#### Prelim. analyses ####  
+
 - [Discretize variables using numpy.matlib.repmat](demo/discretize.ipynb)
 - [Data visualization via dimensionality-reduction](demo/dimRedux.ipynb)
 - [Explore some ONC datasets](demo/data_playground.ipynb)
 - [Explore the YaleED dataset](YaleEDdemo.ipynb)
 - [Explore clinical codes; calculate some clinical indices](demo/clinical_codes.ipynb)
-- [Example of plotting in 3D](demo/WISDM_LSTM.ipynb)
 
 #### Preprocessing ####
 
@@ -62,7 +69,7 @@
     - [LSTM, GRU](WISDM_lstm.ipynb)
     - [1D-CNN](WISDM_1dcnn.ipynb)
 
-## Common code snippets ##
+### Common code snippets ###
 
 - [Jupyter-oriented](misc/code_snippets.md)
 
