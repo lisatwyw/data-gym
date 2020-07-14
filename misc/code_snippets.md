@@ -7,6 +7,12 @@ if device_name != '/device:GPU:0':
 print('Found GPU at: {}'.format(device_name))
 ```
 
+# Plotting #
+
+```
+fig,axes=plt.subplots(1,1, figsize=(  W,H ));
+```
+
 # JupyterHub #
 ## Show all data in output ##
 
@@ -23,6 +29,7 @@ from IPython.display import Javascript
 display(Javascript('''google.colab.output.setIframeHeight(0, true, {maxHeight: 14821})'''))
 
 ```
+
 
 
 # Specific to  Google Colab ##
