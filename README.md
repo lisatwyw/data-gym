@@ -69,6 +69,10 @@
     - [LSTM, GRU](WISDM_lstm.ipynb)
     - [1D-CNN](WISDM_1dcnn.ipynb)
 
+#### Misc. ####
+
+- [Improving reproducibility with seeds](demo/random_seeding.md)
+
 ### Common code snippets ###
 
 - [Jupyter-oriented](misc/code_snippets.md)
