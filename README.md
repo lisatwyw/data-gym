@@ -21,6 +21,7 @@
 - [Yale Emergency Dept dataset](YaleEDdemo.ipynb)
 - [US medicare](https://data.medicare.gov/data/hospital-compare)  # external
 - [EHR temporal variability](https://github.com/hms-dbmi/EHRtemporalVariability)  # external
+- [ICU: septic shock alert (Liu et al., Scientific Reports 2019)](https://github.com/instigatorofawe/shockalert-documented)
 
 ### Older datasets ###
 
