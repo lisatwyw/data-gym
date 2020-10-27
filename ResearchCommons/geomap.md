@@ -1,7 +1,7 @@
 
 # Summary notes #
 
-https://ubc-library-rc.github.io/Geocoding-Web-Mapping-with-Python/ 
+https://ubc-library-rc.github.io/Geocoding-Web-Mapping-with-Python/  [on 2020-10-27]
 
 # Steps #
 
