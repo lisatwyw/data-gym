@@ -15,5 +15,5 @@ https://ubc-library-rc.github.io/Geocoding-Web-Mapping-with-Python/
 
 
 # Glossary #
-Kernel: specific instance of Python
-Mapbox: "povider of custom online maps for websites and applications such as Foursquare, Lonely Planet, Facebook"
+- Kernel: specific instance of Python
+- Mapbox: "povider of custom online maps for websites and applications such as Foursquare, Lonely Planet, Facebook"
