@@ -13,6 +13,9 @@ https://ubc-library-rc.github.io/Geocoding-Web-Mapping-with-Python/
 6. Launch notebook and paste API token into first cell
 7. Run the entire notebook after
 
+# Dataset #
+
+https://newsinteractives.cbc.ca/longform-custom/deadly-force
 
 # Glossary #
 - Kernel: specific instance of Python
