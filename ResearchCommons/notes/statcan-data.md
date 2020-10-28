@@ -17,4 +17,4 @@ Slides: https://jeremybuhler.github.io/find-statcan-data/
 - [Abacus](https://abacus.library.ubc.ca)
 
 ## Misc ##
-- https://nesstar.library.ubc
+- https://nesstar.library.ubc.ca
