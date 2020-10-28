@@ -1,3 +1,6 @@
 # Summary notes on finding data # 
 
-https://jeremybuhler.github.io/find-statcan-data/
+Slides: https://jeremybuhler.github.io/find-statcan-data/
+
+ - Stats vs data
+
