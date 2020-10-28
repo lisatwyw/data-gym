@@ -15,3 +15,6 @@ Slides: https://jeremybuhler.github.io/find-statcan-data/
 - [Search interface](https://www150.statcan.gc.ca/n1/en/type/data); results
     - https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1310046801
 - [Abacus](https://abacus.library.ubc.ca)
+
+## Misc ##
+- https://nesstar.library.ubc
