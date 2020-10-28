@@ -12,6 +12,6 @@ Slides: https://jeremybuhler.github.io/find-statcan-data/
     - Serious injury outcome indicators: 2000–18 – CSV
 
 ## Stats Canada ##
-- [Search](https://www150.statcan.gc.ca/n1/en/type/data)
-
-  - e.g. https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1310046801
+- [Search interface](https://www150.statcan.gc.ca/n1/en/type/data); results
+  - https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1310046801
+  - https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1310046801
