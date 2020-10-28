@@ -1,3 +1,3 @@
 # Summary notes on finding data # 
 
-https://jeremybuhler.github.io/find-statcan-data/#/
+https://jeremybuhler.github.io/find-statcan-data/
