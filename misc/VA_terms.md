@@ -15,10 +15,3 @@
 - call > Zoom 
 - EMR
 
-
-# Timelines #
-
-- templates?
-- glossary 
-- ...
-
