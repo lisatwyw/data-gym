@@ -45,7 +45,8 @@
 - [Extracting data: background color of cells in Excel files](demo/parsing_excel.md)
 - [Reading in data from Google spreadsheet](demo/gsheet_demo.ipynb)
   - [Example 2: Subject999](demo/Prophet_Subject999.ipynb)
-  
+- [Converting from PDF using batch mode](misc/pdf.md)
+
 #### Plotting ####  
 - [Creating subplots](demo/subplots.ipynb)
 - [Correlogram with numbers](demo/correlogram_in_python.ipynb)
