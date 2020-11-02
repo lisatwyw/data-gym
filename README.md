@@ -14,6 +14,12 @@
 - [Subject999](demo/Prophet_Subject999.ipynb)
 - [Fitbit data from 18 subjects](demo/Fitbit.ipynb)
 - [WISDM dataset](demo/WISDM.ipynb)
+- [eDREAM, 2016](http://www.dsp.utoronto.ca/projects/eDREAM/)
+  - Wireless electroencephalogram (EEG) headband
+  - Electrocardiography (ECG), Galvanic Skin Responses (GSR) sensors and a respiration band
+  - Remote eye-tracker
+  - Participant-facing video-racordings
+  - Participant-facing color cameras (The non-identifiable portion of the dataset can be available for research purposes.)
 - SWELL, WESAD
 
 ### Hospital data ###
