@@ -6,7 +6,7 @@ Slides: https://osf.io/cj7hs/
 
 Speaker: Sharon Hanna
 
-Moderator: Matthew Vis-Dunbar, Amanda Grey
+Moderators: Matthew Vis-Dunbar, Amanda Grey
 
 
 ## Open Science ##
