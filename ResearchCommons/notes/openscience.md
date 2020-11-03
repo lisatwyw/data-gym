@@ -9,4 +9,6 @@ Available at https://ec.europa.eu/research/participants/data/ref/h2020/grants_ma
 
 ## Open Science ##
 - reproducibility
-- replicability (e.g. on multiple cohorts)
+- replicability (e.g. on multiple cohorts) 
+
+[Reproducibility and Replicability in Science. Washington, DC: The National Academies Press](https://doi.org/10.17226/25303) 
