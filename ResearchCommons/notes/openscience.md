@@ -4,6 +4,10 @@ Date: Nov 3, 2020
 
 Slides: https://osf.io/cj7hs/
 
+Speaker: Sharon Hanna
+
+Moderator: Matthew Vis-Dunbar, Amanda Grey
+
 
 ## Open Science ##
 
@@ -16,8 +20,7 @@ See [Reproducibility and Replicability in Science. Washington, DC: The National 
 ## Sharing of data ##
 
 - Open Research Data
-- Not new! 
-- weather data
+  - Not new concept! e.g.  weather data
 
 - Repositories:
   - Scholars Portal Dataverse: https://dataverse.scholarsportal.info/dataverse/ubc
@@ -27,6 +30,9 @@ See [Reproducibility and Replicability in Science. Washington, DC: The National 
 - Metadata:
   - Digital Curation Centre: https://www.dcc.ac.uk/guidance/standards/metadata/list
   - Research Data Alliance: http://rd-alliance.github.io/metadata-directory/standards/
+
+- Connecting data
+  - Traditional Knowledge Attribution Tags: https://localcontexts.org/tk-labels/
 
 
 ## FAIR prinicples ##
@@ -53,4 +59,5 @@ See https://www.gida-global.org/care
 - [Knuth, D. E. (1984). Literate Programming. The Computer Journal, 27(2), 97–111](https://doi.org/10.1093/comjnl/27.2.97)
 - [Ioannidis, J. P. A. (2005). Why Most Published Research Findings Are False. PLoS Medicine, 2(8)](https://doi.org/10.1371/journal.pmed.0020124)
 - [Open Science Manifesto](https://ocsdnet.org/manifesto/open-science-manifesto/)
+- [The State of Open Data Report 2019](https://doi.org/10.6084/m9.figshare.9980783.v2)
 
