@@ -19,5 +19,6 @@ Slides: https://osf.io/cj7hs/
 
 ## References ##
 
-[Guidelines on FAIR Data Management in Horizon 2020](https://ec.europa.eu/research/participants/data/ref/h2020/grants_manual/hi/oa_pilot/h2020-hi-oa-data-mgt_en.pdf)
-[Reference: Knuth, D. E. (1984). Literate Programming. The Computer Journal, 27(2), 97–111](https://doi.org/10.1093/comjnl/27.2.97)
+- [Guidelines on FAIR Data Management in Horizon 2020](https://ec.europa.eu/research/participants/data/ref/h2020/grants_manual/hi/oa_pilot/h2020-hi-oa-data-mgt_en.pdf)
+
+- [Reference: Knuth, D. E. (1984). Literate Programming. The Computer Journal, 27(2), 97–111](https://doi.org/10.1093/comjnl/27.2.97)
