@@ -1,4 +1,4 @@
-## Summary notes on Open Scholarship in Practice ##
+# Summary notes on Open Scholarship in Practice #
 
 Date: Nov 3, 2020
 Slides: https://osf.io/cj7hs/
@@ -12,3 +12,9 @@ Available at https://ec.europa.eu/research/participants/data/ref/h2020/grants_ma
 - replicability (e.g. on multiple cohorts) 
 
 [Reproducibility and Replicability in Science. Washington, DC: The National Academies Press](https://doi.org/10.17226/25303) 
+
+
+## Sharing of data ##
+
+- Not new! 
+- weather data
