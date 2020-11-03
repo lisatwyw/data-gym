@@ -1,6 +1,7 @@
 # Summary notes on Open Scholarship in Practice #
 
 Date: Nov 3, 2020
+
 Slides: https://osf.io/cj7hs/
 
 
@@ -18,6 +19,24 @@ See [Reproducibility and Replicability in Science. Washington, DC: The National 
 - weather data
 
 
+## FAIR prinicples ##
+- Findable
+- Accessible
+- Interpretable
+- Reusable 
+
+See https://www.go-fair.org/fair-principles/
+
+
+## CARE prinicples ##
+- Collective benefit 
+- Authority to control of Indigenous groups to control their own data
+- Responsibility
+- Ethics
+
+See https://www.gida-global.org/care
+
+
 ## References ##
 
 - [Guidelines on FAIR Data Management in Horizon 2020](https://ec.europa.eu/research/participants/data/ref/h2020/grants_manual/hi/oa_pilot/h2020-hi-oa-data-mgt_en.pdf)
@@ -25,3 +44,6 @@ See [Reproducibility and Replicability in Science. Washington, DC: The National 
 - [Knuth, D. E. (1984). Literate Programming. The Computer Journal, 27(2), 97–111](https://doi.org/10.1093/comjnl/27.2.97)
 
 - [Ioannidis, J. P. A. (2005). Why Most Published Research Findings Are False. PLoS Medicine, 2(8)](https://doi.org/10.1371/journal.pmed.0020124)
+
+- [Open Science Manifesto](https://ocsdnet.org/manifesto/open-science-manifesto/)
+
