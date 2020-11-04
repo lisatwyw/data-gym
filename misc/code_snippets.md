@@ -7,6 +7,16 @@ if device_name != '/device:GPU:0':
 print('Found GPU at: {}'.format(device_name))
 ```
 
+
+# Dataframe #
+
+```
+names = pd.read_excel( 'names.xlsx' )
+
+names.loc[lambda df: df['Last name'].str.replace(' ', '').str.upper()  == ln.upper() ]                
+
+```
+
 # Plotting #
 
 ```
