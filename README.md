@@ -23,6 +23,10 @@
   - Participant-facing color cameras (the non-identifiable portion of the dataset can be available for research purposes.)
   ```
 - SWELL, WESAD
+- Contactless cardiac arrest detection using smart devices, 2020:
+  ```All data necessary for interpreting the manuscript have been included. The datasets used in the current study are not publicly available due to the sensitivity of 9-1-1 calls but are available from the corresponding authors on reasonable request and with the permission of Public Health-Seattle & King County, Division of Emergency Medical Services.```
+  - Sample wave file (1.21GB) in their published code
+
 
 ### Hospital data ###
 
