@@ -1,11 +1,18 @@
 # Research conduct #
 
-Obtain data:
+Fall 2020
 
+## Notse ##
+
+Obtain data:
 - experimental design
 - sample appropriate?
 - understand stats
 - preregister study
+
+## Discussion notes ##
+https://docs.google.com/presentation/d/1z-71gBAhBaeKAOHIRcUNR18vDfkTWYM2AmzruFKL9iI/edit#slide=id.g9a979bb451_0_25
+
 
 ## Links ##
 
