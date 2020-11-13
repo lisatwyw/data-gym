@@ -18,23 +18,23 @@ Slides: https://ubc-library-rc.github.io/r-stats/
 ### Inferrial statistics ###
 
 1. One-sample t-test; two outcomes:
- - Fail to reject null hypothesis (no evidence to reject H0)
- - Reject null hypothesis
+  - Fail to reject null hypothesis (no evidence to reject H0)
+  - Reject null hypothesis
 
 2. Chi-square goodnes of fit
-- t-test for categorical variables
-- whether the observed distribution matches the expected distribution; e.g. is gender distribution 40%-60%?
-```
-chisq.test( table(scores$gender), p = c(0.4,0.6) )  # 40% for first level 
-```
-```levels(scores$gender)```
+  - t-test for categorical variables
+  - whether the observed distribution matches the expected distribution; e.g. is gender distribution 40%-60%?
+     ```chisq.test( table(scores$gender), p = c(0.4,0.6) )  # 40% for first level```
+     ```levels(scores$gender)```
 
 3. Two-sample t-test  (parametric; two categories)
- - e.g. Do men and women have different average SAT scores?
+   - e.g. Do men and women have different average SAT scores?
 
 4. One way ANOVA (more than 2 categories)
-- e.g. Do SAT scores differ by education levels?
-
+   - e.g. Do SAT scores differ by education levels?
+   a. Failed to reject H0, no need to perform post-hoc
+   b. If we have sign. difference to reject H0, run post-hoc such as Tukey multiple comparisons of means
+   
 
 5. 
 
