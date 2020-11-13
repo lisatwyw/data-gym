@@ -6,10 +6,10 @@ Slides: https://ubc-library-rc.github.io/r-stats/
 
 ## Data types ##
 
-| | |
+| Data types | Terms in R |
 |---|---|
-| Nominal, Ordinal | Character (alphanumeric) or factor |
-| Interval, Ratio | Numeric (floating point) or integer (integer) |
+| Nominal, ordinal | Character (alphanumeric) or factor |
+| Interval, ratio | Numeric (floating point) or integer (integer) |
 
 
 ## Getting started ##
