@@ -28,8 +28,11 @@ Slides: https://ubc-library-rc.github.io/r-stats/
 2. Chi-square goodnes of fit
    - t-test for categorical variables
    - whether the observed distribution matches the expected distribution; e.g. is gender distribution 40%-60%?
-     ```chisq.test( table(scores$gender), p = c(0.4,0.6) )  # 40% for first level```
-     ```levels(scores$gender)```
+     ```
+     chisq.test( table(scores$gender), p = c(0.4,0.6) )  # 40% for first level of gender
+     ```
+   - Use ```levels(scores$gender)``` to check
+   
      
 3. Two-sample t-test  (parametric; two categories)
    - e.g. Do men and women have different average SAT scores?
@@ -65,9 +68,16 @@ Slides: https://ubc-library-rc.github.io/r-stats/
    scores %>%
    select(SATV, SATQ, ACT) %>%
    ggpairs(ggplot2::aes())
-   ```
-   
-   
+   ```     
+   genderWomen: Estimate of 16.554  
+
+
+3. Logistic regression: use if outcome is binary
+
+
+4. Multiple logistic regression
+
+
 
 ## Additional Resources ##
 
