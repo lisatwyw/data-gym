@@ -29,6 +29,7 @@ chisq.test( table(scores$gender), p = c(0.4,0.6) )
 ```
 
 | | |
+|--- |--- |
 | 3.  Two-sample t-test  ||
 | - e.g. Do men and women have different average SAT scores? ||
 
