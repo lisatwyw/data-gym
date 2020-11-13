@@ -11,9 +11,9 @@ Slides: https://ubc-library-rc.github.io/r-stats/
 
 ### Data types ###
 
-| Data types | Terms in R |
+| Types of variables | Terms in R |
 |--- |--- |
-| Nominal, ordinal | Character (alphanumeric) or factor |
+| Nominal, ordinal | Character (alphanumeric, e.g. "c") or factor |
 | Interval, ratio | Numeric (floating point) or integer (integer) |
 
 
@@ -44,7 +44,7 @@ Slides: https://ubc-library-rc.github.io/r-stats/
    
 5. Two-way ANOVA 
    - e.g. Do SAT scores differ by education levels **AND gender**?
-   - should test interactions
+   - should test interactions between variables
    
 6. Chi-square test of independence
    - e.g. Are education and gender dependent?   
@@ -123,6 +123,9 @@ view(data)
 str(scores)
 ```
 
+...
+
+X. Knit in R Studio to compile results/ markdown as HTML.
 
 
 
