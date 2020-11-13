@@ -19,6 +19,8 @@ Slides: https://ubc-library-rc.github.io/r-stats/
 
 ### Inferrial statistics ###
 
+#### ####
+
 1. One-sample t-test; two outcomes:
    - Fail to reject null hypothesis (no evidence to reject H0)
    - Reject null hypothesis
@@ -41,17 +43,30 @@ Slides: https://ubc-library-rc.github.io/r-stats/
    - e.g. Do SAT scores differ by education levels **AND gender**?
    - should test interactions
    
-6. Linear regression: 
-  - e.g. Is there a linear relationship between two quantitative variables?  
-  - Unlike ANOVA, at least one variable is quantitative 
-
-7. Chi-square test of independence
+6. Chi-square test of independence
    - e.g. Are education and gender dependent?   
-   - ```chisq.test( table(scores$gender, scores$education))  
+   - ```chisq.test( table(scores$gender, scores$education))``` 
    - Null hypothesis: variables are independent
    - Alt. hypothesis: variables are not independent
 
 
+#### Regression ####
+
+1. Linear regression: ```lm```
+  - Is there a linear relationship between two quantitative variables?  
+  - Unlike ANOVA, at least one variable is quantitative 
+
+  Residual standard error:
+  - F-statistics; p-value < 1e-10 means model is significant
+  - multiple R-squared (shared variance y explained by model); value of 0.4 is considered significant
+      
+2. Multiple regression: multiple variables  
+
+   ```
+   scores %>%
+   select(SATV, SATQ, ACT) %>%
+   ggpairs(ggplot2::aes())
+   ```
 
 ## Additional Resources ##
 
@@ -90,7 +105,7 @@ library(ggplot2)
 library(GGally)
 ```
 
-4. 
+4. View the data frame
 ```
 data(sat.act)
 view(data)
@@ -102,4 +117,7 @@ str(scores)
 
 ## On Helios@CalculQuebec ##
 
-```module load gcc/5.4.0 r/3.4.3```
+```
+module load gcc/5.4.0 r/3.4.3
+install.packages('sp', repos='https://cloud.r-project.org/')
+```
