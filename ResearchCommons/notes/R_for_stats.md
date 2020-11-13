@@ -2,7 +2,10 @@
 
 # R for statistics #
 
+Date: 2020-11-13
 Slides: https://ubc-library-rc.github.io/r-stats/
+
+
 
 ## Introduction ##
 
@@ -12,7 +15,6 @@ Slides: https://ubc-library-rc.github.io/r-stats/
 |--- |--- |
 | Nominal, ordinal | Character (alphanumeric) or factor |
 | Interval, ratio | Numeric (floating point) or integer (integer) |
-
 
 
 ### Inferrial statistics ###
@@ -36,10 +38,18 @@ Slides: https://ubc-library-rc.github.io/r-stats/
    b. If we have sign. difference to reject H0, run post-hoc such as Tukey multiple comparisons of means
    
 5. Two-way ANOVA 
-- e.g. Do SAT scores differ by education levels **AND gender**?
+   - e.g. Do SAT scores differ by education levels **AND gender**?
+   - should test interactions
+   
+6. Linear regression: 
+  - e.g. Is there a linear relationship between two quantitative variables?  
+  - Unlike ANOVA, at least one variable is quantitative 
 
-
-
+7. Chi-square test of independence
+   - e.g. Are education and gender dependent?   
+   - ```chisq.test( table(scores$gender, scores$education))  
+   - Null hypothesis: variables are independent
+   - Alt. hypothesis: variables are not independent
 
 
 
