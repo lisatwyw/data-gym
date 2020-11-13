@@ -6,7 +6,7 @@ Slides: https://ubc-library-rc.github.io/r-stats/
 
 ## Resources ##
 
-- rcompanion.org/handbook/D_03.html
+- http://rcompanion.org/handbook/D_03.html
 - https://www.statisticssolutions.com/assumptions-of-linear-regression/
 
 
