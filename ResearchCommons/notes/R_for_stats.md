@@ -3,8 +3,8 @@
 # R for statistics #
 
 Date: 2020-11-13
-Slides: https://ubc-library-rc.github.io/r-stats/
 
+Slides: https://ubc-library-rc.github.io/r-stats/
 
 
 ## Introduction ##
@@ -53,20 +53,21 @@ Slides: https://ubc-library-rc.github.io/r-stats/
 #### Regression ####
 
 1. Linear regression: ```lm```
-  - Is there a linear relationship between two quantitative variables?  
-  - Unlike ANOVA, at least one variable is quantitative 
+   - Is there a linear relationship between two quantitative variables?  
+   - Unlike ANOVA, at least one variable is quantitative 
 
-  Residual standard error:
-  - F-statistics; p-value < 1e-10 means model is significant
-  - multiple R-squared (shared variance y explained by model); value of 0.4 is considered significant
+   - Residual standard error:
+      - F-statistics; p-value < 1e-10 means model is significant
+      - multiple R-squared (shared variance y explained by model); value of 0.4 is considered significant
       
 2. Multiple regression: multiple variables  
-
    ```
    scores %>%
    select(SATV, SATQ, ACT) %>%
    ggpairs(ggplot2::aes())
    ```
+   
+   
 
 ## Additional Resources ##
 
