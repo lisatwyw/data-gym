@@ -7,7 +7,7 @@ Slides: https://ubc-library-rc.github.io/r-stats/
 ## Data types ##
 
 | Data types | Terms in R |
-|---|---|
+|--- |--- |
 | Nominal, ordinal | Character (alphanumeric) or factor |
 | Interval, ratio | Numeric (floating point) or integer (integer) |
 
@@ -40,3 +40,14 @@ library(dplyr)
 library(ggplot2)
 library(GGally)
 ```
+
+4. 
+```
+data(sat.act)
+view(data)
+str(scores)
+```
+
+## On Helios@CalculQuebec ##
+
+```module load gcc/5.4.0 r/3.4.3```
