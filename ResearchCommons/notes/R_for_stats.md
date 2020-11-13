@@ -4,13 +4,9 @@
 
 Slides: https://ubc-library-rc.github.io/r-stats/
 
-## Resources ##
+## Introduction ##
 
-- http://rcompanion.org/handbook/D_03.html
-- https://www.statisticssolutions.com/assumptions-of-linear-regression/
-
-
-## Data types ##
+### Data types ###
 
 | Data types | Terms in R |
 |--- |--- |
@@ -19,10 +15,36 @@ Slides: https://ubc-library-rc.github.io/r-stats/
 
 
 
-## Inferrial statistics ##
+### Inferrial statistics ###
+
+1. One-sample t-test; two outcomes:
+ - Fail to reject null hypothesis (no evidence to reject H0)
+ - Reject null hypothesis
+
+2. Chi-square goodnes of fit
+- t-test for categorical variables
+- whether the observed distribution matches the expected distribution; e.g. is gender distribution 40%-60%?
+```
+chisq.test( table(scores$gender), p = c(0.4,0.6)
+```
+
+| 3.  Two-sample t-test  ||
+| - e.g. Do men and women have different average SAT scores? ||
 
 
-## Getting started ##
+
+
+
+
+## Additional Resources ##
+
+- http://rcompanion.org/handbook/D_03.html
+- https://www.statisticssolutions.com/assumptions-of-linear-regression/
+
+
+
+
+## Getting started in R ##
 
 ### Setup ###
 
