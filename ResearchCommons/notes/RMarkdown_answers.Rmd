@@ -1,0 +1,560 @@
+# Installing and loading R packages
+
+Install packages for statistical analysis
+```{r}
+#install.packages("psych") # a statistical analysis package
+#install.packages("rstatix") # a statistical analysis package
+#install.packages("dplyr") # a data manipulation package
+#install.packages("ggplot2") # a data visualization package
+#install.packages("GGally") # a data visualization package (extension of ggplot2)
+```
+
+
+Load packages into your current session
+```{r}
+library(psych)
+library(rstatix)
+library(dplyr)
+library(ggplot2)
+library(GGally)
+```
+
+
+# Uploading data
+
+
+Creating a data frame `scores` using an in-built dataset `sat.act` from the `psych` package
+```{r}
+scores <- sat.act
+```
+
+
+Importing data from a .csv file (located in your working directory)
+```{r}
+# scores <-read.csv("sat.act.csv") # does not work in this case as you don't have a .csv file
+```
+
+
+# Describing data structure
+
+
+Check the description of the "sat.act" dataset
+```{r}
+# ?sat.act
+```
+
+
+See the first six rows of the data frame 
+```{r}
+head(scores) 
+```
+
+
+See the entire dataset
+```{r}
+#view(scores)
+```
+
+
+Count the number of observations (measured by the number of rows) and the number of variables (measured by the number of columns)
+```{r}
+nrow(scores) #To check the number of rows
+ncol(scores) #To check the number of columns
+```
+
+
+Check data structure
+```{r}
+str(scores)
+```
+
+
+# Data manipulation
+
+
+## Changing format of variables
+
+
+Check current data format of the  `gender` variable
+```{r}
+typeof(scores$gender)
+```
+
+
+Change the format of `gender` from integer (quantitative) to factor (categorical)
+```{r}
+scores$gender <- as.factor(scores$gender)
+```
+
+
+Check whether `gender` has factor format
+```{r}
+is.factor(scores$gender)
+```
+
+
+## Exercise 1
+
+* Using typeof command, check the current format of `education`
+* Using as.factor command, change `education` to factor.
+* Using is.factor command, check if `education` is defined as factor. 
+
+
+Check current data format of the  `education` variable
+```{r}
+typeof(scores$education)
+```
+
+
+Change the format of `education` from integer (quantitative) to factor (categorical)
+```{r}
+scores$education <- as.factor(scores$education)
+```
+
+
+Check whether `education` has factor format
+```{r}
+is.factor(scores$education)
+```
+
+
+Check updated data structure
+```{r}
+str(scores)
+```
+
+
+
+### Optional
+
+What if you wanted to change the variable type back to integer or to charachter?
+
+
+#### Commands to change data type:
+* as.numeric (quantitative, continious format) 
+* as.integer (quantitative, discrete format)
+* as.charachter (text format)
+* as.factor (categorical format)
+* as.logical (logical format: TRUE/FALSE)
+* as.complex (complex number format: a combination of real and imaginary numbers)
+
+
+#### Commands to check whether your data type is the following:
+* is.numeric (quantitative, continious format) 
+* is.integer (quantitative, discrete format)
+* is.charachter (text format)
+* is.factor (categorical format)
+* is.logical (logical format: TRUE/FALSE)
+* is.complex (complex number format: a combination of real and imaginary numbers)
+
+
+#### Optional example
+
+Changing `education` format back to integer using `as.integer` command
+```{r}
+scores$education <- as.integer(scores$education)
+```
+
+
+Check current data format of the  `education` variable
+```{r}
+typeof(scores$education)
+```
+
+
+For this workshop, remember to change  data format of the  `education` variable back to factor
+```{r}
+scores$education <- as.factor(scores$education)
+```
+
+
+Check whether `education` has factor format
+```{r}
+is.factor(scores$education)
+```
+
+
+
+
+## Transforming values of categorical variables
+
+### Gender
+
+`Gender` is now factor but it is still coded as "1" (men) and "2" (women) - it would be helpful for later analysis to change "1" to "men" and "2" to "women"
+
+
+Replacing values
+```{r}
+# Step 1: Change the data format to charachter
+scores$gender <- as.character(scores$gender)
+
+# Step 2: Replace "1" with "men" and "2" with "women"
+scores$gender[scores$gender=="1"] <- "Men"
+scores$gender[scores$gender=="2"] <- "Women"
+
+# Step 3: Change the data format back to factor
+scores$gender <- as.factor(scores$gender)
+
+# Step 4: Check levels for `gender`
+levels(scores$gender)
+```
+
+
+Optional: If you wanted to re-arrange the order of levels: "Women" first, "Men" second
+```{r}
+# Step 5: Reorder levels for `gender` 
+scores <- scores %>% 
+  reorder_levels(gender, order = c("Women","Men"))
+
+# Step 6: Check levels for `gender`
+levels(scores$gender)
+```
+
+
+# Descriptive statistics
+
+
+## Categorical data
+
+
+Get frequency for the `gender` variable
+```{r}
+table(scores$gender)
+```
+
+
+Get cross-tabulation for `gender` and `education`
+```{r}
+table(scores$gender, scores$education)
+```
+
+
+### Visualizing categorical data 
+
+Make a bar-chart showing counts of observations by gender
+```{r}
+scores %>% 
+  ggplot(aes(fill=gender, x=gender)) + 
+    geom_bar(aes(y=..count..))+
+    geom_text(aes(label = ..count..,y= ..count..), stat="count", position = position_stack(vjust = 0.5), size=5) +
+    labs(title="Number of observations by gender",y="Number of observations")
+```
+
+
+#### Exercise #2
+
+Make a bar-chart showing counts of observations by levels of education
+```{r}
+scores %>% 
+  ggplot(aes(fill=education, x=education))+
+    geom_bar(aes(y=..count..))+
+    geom_text(aes(label = ..count..,y= ..count..), stat="count", position = position_stack(vjust = 0.5), size=5) +
+    labs(title="Number of observations by education",y="Number of observations")
+```
+
+
+
+Make a grouped bar-chart showing counts of observations by gender and levels of education
+```{r}
+scores %>% 
+  ggplot(aes(fill=gender,x=education, y=..count..)) + 
+    geom_bar(aes(y=..count..), position="dodge")+
+    labs(title="Number of observations by gender and levels of education",y="Number of observations")
+```
+
+
+
+## Quantitative data
+
+Find summary statistics for each quantitative variable
+```{r}
+get_summary_stats(scores)
+```
+
+
+Find summary statistics for `ACT` scores, grouped by `gender`
+```{r}
+scores %>% 
+  group_by(gender) %>%
+  get_summary_stats(ACT)
+```
+
+
+### Visualizing quantitative data 
+
+
+#### Histograms and Density Plots
+
+Visualizes the distribution of ACT scores
+```{r}
+scores %>%
+  ggplot(aes(x=ACT)) + 
+    geom_histogram(binwidth=2,color="black", fill="lightblue") +
+    labs(title="Histogram of ACT scores ", x="ACT score", y="Number of observations")
+```
+
+
+Add a red density plot to the histogram of ACT scores
+```{r}
+scores %>%
+  ggplot(aes(x=ACT)) + 
+    geom_histogram(aes(y = stat(density)), binwidth=2, color="black", fill="lightblue") +
+    geom_density(size=1.5, color="red") +  
+    labs(title="Histogram and Density Plot of ACT scores ", x="ACT score", y="Percent of observations")
+```
+
+
+What if you wanted to add a normal distribution curve instead of a density plot?
+```{r}
+scores %>%
+  ggplot(aes(x=ACT)) + 
+    geom_histogram(aes(y = stat(density)), binwidth=2, color="black", fill="lightblue") +
+    stat_function(fun = dnorm, args = list(mean = mean(scores$ACT), sd = sd(scores$ACT)),size=1)+
+    labs(title="Histogram of ACT scores with a Normal Curve", x="ACT score", y="Percent of observations")
+```
+
+#### Exercise #3
+
+
+Make a histogram of `SATV` scores with an added Normal Curve
+```{r}
+scores %>%
+  ggplot(aes(x=SATV)) + 
+    geom_histogram(aes(y = stat(density)), binwidth=50, color="black", fill="lightblue") +
+    stat_function(fun = dnorm, args = list(mean = mean(scores$SATV), sd = sd(scores$SATV)),size=1)+
+    labs(title="Histogram of SAT Verbal scores with a Normal Curve", x="SAT Verbal score", y="Percent of observations")
+```
+
+
+
+#### Boxplots
+
+Boxplots are used to compare distributions of one quantitative variable across multiple categories.
+
+Comparing distribution of `ACT` scores variable by education level:
+```{r}
+scores %>%
+ggplot(aes(x=education, y=ACT, fill=education))+
+    geom_boxplot(outlier.size=1)+
+    labs(title="Boxplots of ACT scores by education level",x="Levels of education", y="ACT scores")
+```
+
+
+Comparing distribution of `ACT` scores variable by education level and gender (grouped by education level first, gender second)
+```{r}
+scores %>%
+ggplot(aes(x=education, y=ACT, fill=gender))+
+    geom_boxplot(outlier.size=1)+
+    labs(title="Boxplots of ACT scores by education level and gender",x="Level of education", y="ACT score")
+```
+
+
+
+
+# Inferential Statistics
+
+You should select statistical tests based on your hypothesis and the data type of your variable(s)
+
+* One sample t-test  
+* Chi-square goodness of fit test 
+* Two sample t-test  
+* One-way ANOVA
+* Two-way ANOVA
+* Chi-square test of independence 
+* Simple linear regression
+* Multiple linear regression  
+* Simple logistic regression   
+* Multiple logistic regression   
+
+
+
+## One sample t-test
+
+It is used to see whether the hypothesized value of the population mean matches actual value.
+
+
+Is the average ACT score for all participants 27?
+```{r}
+t.test(scores$ACT, mu = 27)
+```
+
+t(df=699) = 8.4862, p-value = 0.00% < 5% (reject the null) -> The average ACT score is not 27.
+
+
+## Chi-square goodness of fit
+
+It is used to see whether the actual distribution (from a sample) of a categorical variable mathes the expected distribution.
+
+
+Is gender distribution 50%-50% in this data set?
+```{r}
+chisq.test(table(scores$gender), p = c(0.5,0.5))
+```
+
+X-squared(df=1) = 60.623, p-value = 0.00% < 5% (reject the null) -> The gender distribution is not 50%-50%.
+
+
+## Two-sample t-test
+
+It is used to see whether there are group differences in population means between two groups.
+
+Do men and women have different average SAT verbal scores?
+```{r}
+t.test(scores$SATV ~ scores$gender, var.eq = TRUE)
+```
+
+t(df=698) = -0.49792, p-value = 61.87% > 5% (fail to reject the null) -> There was no statistically significant difference in average SAT verbal scores between men and women.
+
+
+## One-way ANOVA
+
+It is used to determine whether there are group differences in numeric data between two or more groups.
+
+Do SAT verbal scores significantly differ by educational levels (1= HS, 2= some college degree, 3 = 2-year college degree, 4= 4-year college degree, 5= graduate work, 6=professional degree)?
+```{r}
+ANOVA_SATV_ed <- aov(scores$SATV ~ scores$education)
+
+summary(ANOVA_SATV_ed)
+```
+
+F value(df Model=5, df Residuals=694) = 1.269, p-value = 27.5% > 5% (fail to reject the null) -> There were no significant group differences in SAT verbal scores according to students' educational levels.
+
+
+We do not have to run the post hoc tests because the group differences are not significant.
+
+
+Tukey's HSD is the most popular post hoc test for comparing multiple pairings:
+```{r}
+Tukey_ANOVA_SATV_ed <- TukeyHSD(aov(scores$SATV ~ scores$education), conf.level=.95) 
+Tukey_ANOVA_SATV_ed
+```
+
+
+## Two-way ANOVA
+
+It is used to determine whether there are group differences in numeric data between groups charachterized by two different categorical variables.
+
+Do SAT verbal scores significantly differ by educational levels and gender?
+```{r}
+ANOVA_SATV_ed_g <- aov(scores$SATV ~ scores$education+scores$gender)
+
+summary(ANOVA_SATV_ed_g)
+```
+
+* Education: F value(df Model=5, df Residuals=693) = 1.269, p-value = 27.6% > 5% (fail to reject the null)
+* Gender: F value(df Model=1, df Residuals=693) = 0.529, p-value = 46.7% > 5% (fail to reject the null)
+
+There were no significant group differences in SAT verbal scores according to students' educational levels or gender.
+
+
+
+## Chi-square test of independence
+
+It is used to determine whether two categorical variables are dependent or independent.
+
+Is gender independent of education levels?
+```{r}
+chisq.test(table(scores$gender, scores$education))
+```
+
+X-squared(df=5) = 16.085, p-value = 0.006% < 5% (reject the null) -> Gender and education levels are dependent.
+
+
+## Simple linear regression 
+
+It is used to identify a presense of a linear relationship between two quantitative variables.
+
+
+is there a linear relationship between SAT Verbal and SAT Quantitative scores?
+
+Make a scatteplot with a best-fit line
+```{r}
+ggplot(scores, aes(x=SATQ, y=SATV)) + 
+  geom_point()+
+  geom_smooth(method=lm)+
+  labs(title="Scatteplot of SAT Verbal and SAT Quantitative scores",x="SAT Quantitative score", y="SAT Verbal score")
+```
+
+
+
+```{r}
+SATV_SATQ <- lm(scores$SATV ~ scores$SATQ)
+summary(SATV_SATQ)
+```
+
+T-test for Beta1:
+- t-stat(SATQ) = 22.05, p-value = 0.00% < 5% (reject the null)
+- There is a linear relationship between SAT Quantitative scores and SAT Verbal scores. 
+
+ANOVA for Regression:
+- F-stat(1,685) = 486.2, p-value = 0.00% < 5% (reject the null)
+- The overall model is worthwhile.
+
+
+* The estimated regression line equation: SATV = 227.14 + 0.63(SATQ). We would expect 0.63 points increase in SAT Verbal scores for every one point increase in SAT Quantitative score, assuming all the other variables are held constant.
+* 41.51% of the variability in the SAT verbal scores was explained by the SAT quantitative scores.
+
+
+## Multiple linear regression
+
+It is used to explain/predict one quantitative variable using multiple explanatory variables (one of which has to be quantitative).
+
+
+For example, can you explain/predict SAT Verbal using SAT Quantitative scores and ACT scores?
+
+Make a correlation matrix
+```{r}
+scores %>%
+  select(SATV,SATQ,ACT) %>% 
+  ggpairs(ggplot2::aes()) 
+```
+
+
+
+
+```{r}
+summary(lm(scores$SATV ~ scores$SATQ +  scores$ACT))
+```
+
+
+
+
+What if we wanted to include all of the variables in our dataset?
+```{r}
+summary(lm(scores$SATV ~ scores$SATQ + scores$ACT + scores$age + scores$education + scores$gender))
+```
+
+
+T-tests for Beta1:
+- SATQ: p-value = 0.00% < 5% (reject the null) -> There is a linear relationship between SATQ and SATV scores. 
+- ACT: p-value = 0.00% < 5% (reject the null) -> There is a linear relationship between ACT and SATV scores. 
+- Age: p-value = 7.24% > 5% (fail to reject the null) -> There is no linear relationship between age and SATV scores.
+- Education: p-value >50% (fail to reject the null) -> There is no linear relationship between education and SATV scores.
+- Gender: p-value = 1.50% < 5 % (reject the null) -> There is a linear relationship between gender and SATV scores. 
+
+ANOVA for Regression:
+- F-stat(9,677) = 67.98, p-value = 0.00% < 5% (reject the null)
+- The overall model is worthwhile.
+
+
+* The estimated regression line equation: SATV = 162.61 + 0.48(SATQ)+6.60(ACT)-16.55(Men).  
+* 46.77% of the variability in the SAT verbal scores was explained by the model as a whole.
+
+
+# Optional
+
+## Simple logistic regression
+
+
+```{r}
+summary(glm(scores$gender ~ scores$SATQ, family = binomial))
+```
+
+
+## Multiple logistic regression
+
+
+
+```{r}
+summary(glm(scores$gender ~ scores$SATQ + scores$SATV, family = binomial))
+```
