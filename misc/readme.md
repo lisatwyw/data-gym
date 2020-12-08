@@ -12,6 +12,17 @@ print('Found GPU at: {}'.format(device_name))
 train.isnull().sum(axis=0)/len(train.index) * 100
 ```
 
+```
+# https://www.kaggle.com/vishwesh5/patient-survival
+def selectCategory(df,category):
+    """
+    This function will return the dataset
+    with information about the specified
+    category
+    """
+    return df[df.Category==category]
+```
+    
 
 # Dataframe #
 
