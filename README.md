@@ -111,7 +111,7 @@
 - [Visualizing missing data quickly](https://github.com/ResidentMario/missingno)
 - [Visualization: bad examples](https://viz.wtf/)
 - [Violinplot via Seaborn](http://seaborn.pydata.org/examples/wide_form_violinplot.html)
-
+- [Cartograms (explained in first ten seconds)](https://www.youtube.com/watch?v=q76QLy9Dqs0&feature=youtu.be)
 
 ### Statistics & cross-validation ###
 
