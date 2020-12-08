@@ -28,13 +28,18 @@
   ```All data necessary for interpreting the manuscript have been included. The datasets used in the current study are not publicly available due to the sensitivity of 9-1-1 calls but are available from the corresponding authors on reasonable request and with the permission of Public Health-Seattle & King County, Division of Emergency Medical Services.```
   - Sample wave file (1.21GB) in [their published code](https://cardiacalert.cs.washington.edu/)
 
+### Medication 
+- http://dataset.lixoft.com/data-set-examples/
 
 ### Hospital data ###
-
 - [Yale Emergency Dept dataset](YaleEDdemo.ipynb)
 - [US medicare](https://data.medicare.gov/data/hospital-compare)  # external
 - [EHR temporal variability](https://github.com/hms-dbmi/EHRtemporalVariability)  # external
-- [ICU: septic shock alert (Liu et al., Scientific Reports 2019)](https://github.com/instigatorofawe/shockalert-documented)
+
+### ICU datasets ##
+- [HiRID 2020]
+- [WIDS2020 (on Kaggle)]
+- [ICU: septic shock alert (Liu et al., Scientific Reports 2019)](https://github.com/instigatorofawe/shockalert-documented) # external
 
 ### Older datasets ###
 - [Right heart catheterization dataset](http://biostat.mc.vanderbilt.edu/wiki/pub/Main/DataSets/rhc.html)
