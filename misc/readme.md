@@ -7,6 +7,11 @@ if device_name != '/device:GPU:0':
 print('Found GPU at: {}'.format(device_name))
 ```
 
+# Percent of missing values
+```
+train.isnull().sum(axis=0)/len(train.index) * 100
+```
+
 
 # Dataframe #
 
