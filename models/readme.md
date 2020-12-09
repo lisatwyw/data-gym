@@ -1,4 +1,23 @@
-### Boosted trees
+### Gradient boosting algorithms
+
+# Concepts recapped:
+
+- Boosting: iteratively trains a sequence of weak learners 
+    -  at each iteration, training examples are weighted accordingly to the success of the learners learnt at the previous iteration 
+- AdaBoost equivalent to minimizing exponential loss function
+- Gradient boosting minimizes arbitrary loss functions; fits next weak learner by performing regression on a function of the gradient vector of the loss evaluated at the previous iteration
+
+- Below use decision trees as base learner 
+
+[XGboost in Python](https://xgboost.readthedocs.io/en/latest/python/python_intro.html)
+
+[CatBoost + SHAPly for interpretability in Python](https://towardsdatascience.com/why-you-should-learn-catboost-now-390fb3895f76)
+- Pros: 
+  - missing values of numeric variables are okay
+  - Text processing
+  - GPU processing
+- Caveats: missing values of categorical variables need to be filled
+
 
 [Comparison of XGBoost, CatBoost, and LightGBM presented at NeurIPS 2018](https://arxiv.org/pdf/1809.04559.pdf)
 - used four datasets:
@@ -10,11 +29,3 @@
 | Microsoft | 723,412 + 241,521        | 136           | 0.0789               | 5-class     | Normalized discounted cumulative gain |
 | Yahoo     | 473,134 + 165,660        |  699          | 0.0789               | 5-class     | Normalized discounted cumulative gain |
 
-[XGboost]
-
-[CatBoost with SHAPly for interpretability](https://towardsdatascience.com/why-you-should-learn-catboost-now-390fb3895f76)
-- Pros: 
-  - missing values of numeric variables are okay
-  - Text processing
-  - GPU processing
-- Caveats: missing values of categorical variables need to be filled
