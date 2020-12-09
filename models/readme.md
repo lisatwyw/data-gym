@@ -25,7 +25,7 @@
   - GPU processing
 - Caveats: missing values of categorical variables need to be filled
 
-### [Comparison of XGBoost, CatBoost, and LightGBM presented at NeurIPS 2018](https://arxiv.org/pdf/1809.04559.pdf)
+### [Comparisons of XGBoost, CatBoost, and LightGBM presented at NeurIPS 2018](https://arxiv.org/pdf/1809.04559.pdf)
 
 #### Findings:
 - CatBoost converged to good solution 
