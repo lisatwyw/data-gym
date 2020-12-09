@@ -20,12 +20,14 @@
 - Caveats: missing values of categorical variables need to be filled
 
 ### [Comparison of XGBoost, CatBoost, and LightGBM presented at NeurIPS 2018](https://arxiv.org/pdf/1809.04559.pdf)
-- Findings:
-  - CatBoost converged to good solution 
-  - XGBoost cannot run when feature set gets too large
-  - Largest runtime reduction in XGBoost when GPU is used over CPU 
-  - LightGBM may converged to better solutions 
-- Used four datasets:
+
+#### Findings:
+- CatBoost converged to good solution 
+- XGBoost cannot run when feature set gets too large
+- Largest runtime reduction in XGBoost when GPU is used over CPU 
+- LightGBM may converged to better solutions 
+
+#### Evaluation on four datasets
 
 |           | # of train + val samples | # of features | Sparsity of training | Task        | Metric |  XGBoost** | LightGBM** | Catboost** |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|
@@ -36,5 +38,6 @@
 
 *NDCG: Normalized discounted cumulative gain
 **evaluation on test set
+
 
 ![features](https://miro.medium.com/max/1000/1*A0b_ahXOrrijazzJengwYw.png)
