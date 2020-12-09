@@ -1,3 +1,6 @@
+# Ensemble methods 
+
+## Random forest
 ## Gradient boosting algorithms
 
 ### Concepts recapped:
@@ -11,9 +14,12 @@
 [Light GBM in Python](https://lightgbm.readthedocs.io/)
 
 [XGboost in Python](https://xgboost.readthedocs.io/en/latest/python/python_intro.html)
+- gb-tree, gb-linear, dart
+- SHAPly for interpretability
 
-[CatBoost + SHAPly for interpretability in Python](https://towardsdatascience.com/why-you-should-learn-catboost-now-390fb3895f76)
+[CatBoost in Python](https://towardsdatascience.com/why-you-should-learn-catboost-now-390fb3895f76)
 - Pros: 
+  - SHAPly for interpretability
   - missing values of numeric variables are okay
   - Text processing
   - GPU processing
@@ -41,5 +47,5 @@
 **Performance metric evaluated on test set
 
 
-#### Parameters: 
+#### Parameters compared: 
 ![From https://towardsdatascience.com/catboost-vs-light-gbm-vs-xgboost-5f93620723db](https://miro.medium.com/max/1000/1*A0b_ahXOrrijazzJengwYw.png)
