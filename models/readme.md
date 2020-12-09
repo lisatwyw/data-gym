@@ -3,11 +3,12 @@
 # Concepts recapped:
 
 - Boosting: iteratively trains a sequence of weak learners 
-    -  at each iteration, training examples are weighted accordingly to the success of the learners learnt at the previous iteration 
+  - At each iteration, training examples are weighted accordingly to the success of the learners learnt at the previous iteration 
 - AdaBoost equivalent to minimizing exponential loss function
 - Gradient boosting minimizes arbitrary loss functions; fits next weak learner by performing regression on a function of the gradient vector of the loss evaluated at the previous iteration
+- Below packages use decision trees as base learner 
 
-- Below use decision trees as base learner 
+[Light GBM in Python](https://lightgbm.readthedocs.io/)
 
 [XGboost in Python](https://xgboost.readthedocs.io/en/latest/python/python_intro.html)
 
@@ -29,3 +30,4 @@
 | Microsoft | 723,412 + 241,521        | 136           | 0.0789               | 5-class     | Normalized discounted cumulative gain |
 | Yahoo     | 473,134 + 165,660        |  699          | 0.0789               | 5-class     | Normalized discounted cumulative gain |
 
+|[features](https://miro.medium.com/max/1000/1*A0b_ahXOrrijazzJengwYw.png)
