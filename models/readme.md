@@ -4,6 +4,7 @@
 - used four datasets:
 
 |           | # of train + val samples | # of features | Sparsity of training | Task        | Metric |
+|-----|-----|-----|-----|-----|-----|
 | Higgs     | 10,500,000 + 500,000     | 28            | 0.0789               | binary      | AUC-ROC |
 | Epsilon   | 400,000 + 100,000        | 2,000         | 0                    | binary      | AUC-ROC |
 | Microsoft | 723,412 + 241,521        | 136           | 0.0789               | 5-class     | Normalized discounted cumulative gain |
