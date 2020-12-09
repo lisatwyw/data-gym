@@ -30,4 +30,4 @@
 | Microsoft | 723,412 + 241,521        | 136           | 0.0789               | 5-class     | Normalized discounted cumulative gain |
 | Yahoo     | 473,134 + 165,660        |  699          | 0.0789               | 5-class     | Normalized discounted cumulative gain |
 
-|[features](https://miro.medium.com/max/1000/1*A0b_ahXOrrijazzJengwYw.png)
+![features](https://miro.medium.com/max/1000/1*A0b_ahXOrrijazzJengwYw.png)
