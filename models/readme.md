@@ -29,10 +29,10 @@
 
 |           | # of train + val samples | # of features | Sparsity of training | Task        | Metric |  XGBoost** | LightGBM** | Catboost** |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| Higgs     | 10,500,000 + 500,000     | 28            | 0.0789               | binary      | AUC-ROC | 0.84 | 0.86^ | 0.85 |
-| Epsilon   | 400,000 + 100,000        | 2,000         | 0                    | binary      | AUC-ROC | n/a | 0.95 | 0.95^ |
-| Microsoft | 723,412 + 241,521        | 136           | 0.0789               | 5-class     | NDCG*   |0.49^ | 0.49  |  0.38 |
-| Yahoo     | 473,134 + 165,660        |  699          | 0.0789               | 5-class     | NDCG    |0.798^ | 0.797 | 0.74 |
+| Higgs     | 10,500,000+500,000     | 28            | 0.0789               | binary      | AUC-ROC | 0.84 | 0.86^ | 0.85 |
+| Epsilon   | 400,000+100,000        | 2,000         | 0                    | binary      | AUC-ROC | n/a | 0.95 | 0.95^ |
+| Microsoft | 723,412+241,521        | 136           | 0.0789               | 5-class     | NDCG*   |0.49^ | 0.49  |  0.38 |
+| Yahoo     | 473,134+165,660        |  699          | 0.0789               | 5-class     | NDCG    |0.798^ | 0.797 | 0.74 |
 
 *NDCG: Normalized discounted cumulative gain
 **evaluation on test set
