@@ -37,7 +37,9 @@
 | Yahoo     | 473,134+165,660        |  699          | 0.0789               | 5-class     | NDCG    |0.798^ | 0.797 | 0.74 |
 
 *NDCG: Normalized discounted cumulative gain
-**evaluation on test set
+
+**Performance metric evaluated on test set
 
 
-![features](https://miro.medium.com/max/1000/1*A0b_ahXOrrijazzJengwYw.png)
+#### Parameters: 
+![From https://towardsdatascience.com/catboost-vs-light-gbm-vs-xgboost-5f93620723db](https://miro.medium.com/max/1000/1*A0b_ahXOrrijazzJengwYw.png)
