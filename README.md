@@ -41,6 +41,9 @@
 - [WIDS2020 (on Kaggle)]
 - [ICU: septic shock alert (Liu et al., Scientific Reports 2019)](https://github.com/instigatorofawe/shockalert-documented) # external
 
+- [COVID2019](https://github.com/beoutbreakprepared/nCoV2019)
+  - time2event, event = {discharge, death}
+  
 ### Older datasets ###
 - [Right heart catheterization dataset](http://biostat.mc.vanderbilt.edu/wiki/pub/Main/DataSets/rhc.html)
 - [Diabetes](demo/LR_vs_LSTM_on_PIMA_without_skin.ipynb)
