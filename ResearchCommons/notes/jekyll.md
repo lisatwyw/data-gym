@@ -1,3 +1,5 @@
 June 21, 2021
 
-https://ubc-library-rc.github.io/intro-jekyll/
+Slides https://ubc-library-rc.github.io/intro-jekyll/
+
+https://github.com/barryclark/jekyll-now 
