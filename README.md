@@ -51,6 +51,7 @@
 
 ### Imaging data ###
 - [smartphone-captured-chest-x-ray-photographs-1.0.0\Photo-MMC\MIMICCXR-photo-frontal]()
+- [https://sites.duke.edu/mazurowski/resources/breast-cancer-mri-dataset/](Breast MRI, DCE sequence)
 
 ### Population statistics ###
 - [COVID19 from OpenCanada](datasets/OpenCanada_COVID19.ipynb)
