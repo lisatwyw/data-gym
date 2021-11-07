@@ -10,6 +10,7 @@
 - [Yale Emergency Dept dataset](YaleEDdemo.ipynb)
 - [US medicare](https://data.medicare.gov/data/hospital-compare)  # external
 - [EHR temporal variability](https://github.com/hms-dbmi/EHRtemporalVariability)  # external
+- [NHANES](https://wwwn.cdc.gov/nchs/nhanes/nhefs/#dfd)
 
 #### ICU datasets
 - [HiRID 2020]
