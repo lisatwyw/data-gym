@@ -11,6 +11,9 @@
 - [US medicare](https://data.medicare.gov/data/hospital-compare)  # external
 - [EHR temporal variability](https://github.com/hms-dbmi/EHRtemporalVariability)  # external
 - [NHANES](https://wwwn.cdc.gov/nchs/nhanes/nhefs/#dfd)
+- [subset of SEER](https://ieee-dataport.org/open-access/seer-breast-cancer-data) 
+  - 4024 samples, 16 vars in total 
+  - Time2event: ```Survival Months```, ```Status``` (```Dead``` vs ```Alive```)
 
 #### ICU datasets
 - [HiRID 2020]
