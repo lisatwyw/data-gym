@@ -66,7 +66,7 @@
 ### Statistics & cross-validation ###
 
 - ["Statistical Approaches to the Model Comparison Task in Learning Analytics," Gardner & Brooks, LAK2017](http://ceur-ws.org/Vol-1915/paper2.pdf)
-- [slides by B Evans](https://ecs.wgtn.ac.nz/foswiki/pub/Groups/ECRG/StatsGuide/Significance%20Testing%20for%20Classification.pdf)
+- [Slides "Statistical testing for classification..." by B Evans](https://ecs.wgtn.ac.nz/foswiki/pub/Groups/ECRG/StatsGuide/Significance%20Testing%20for%20Classification.pdf)
 - Notes: "[...] ordinal regression is known to perform better than softmax on ordinal data (Cheng et al., 2008)"
 
 ### Meta-data ###
