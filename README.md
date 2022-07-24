@@ -60,8 +60,8 @@
 - [National longitudinal mortality survey](https://www.census.gov/topics/research/nlms.Project_Overview.html) # turnaround time maybe within 24 hours
 
 ### Imaging data ###
-- [smartphone-captured-chest-x-ray-photographs-1.0.0\Photo-MMC\MIMICCXR-photo-frontal]()
-- [https://sites.duke.edu/mazurowski/resources/breast-cancer-mri-dataset/](Breast MRI, DCE sequence)
+- [smartphone-captured-chest-x-ray-photographs-1.0.0\Photo-MMC\MIMICCXR-photo-frontal](https://physionet.org/content/cxr-phone/1.0.0/)
+- [Breast MRI, DCE sequence](https://sites.duke.edu/mazurowski/resources/breast-cancer-mri-dataset/)
 
 ### Population statistics ###
 - [COVID19 from OpenCanada](datasets/OpenCanada_COVID19.ipynb)
